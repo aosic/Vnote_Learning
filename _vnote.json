@@ -16,43 +16,7 @@
             "name": "physics"
         },
         {
-            "name": "maths"
-        },
-        {
-            "name": "CS_硬件"
-        },
-        {
-            "name": "CS_软件"
-        },
-        {
-            "name": "English"
-        },
-        {
-            "name": "Japanese"
-        },
-        {
-            "name": "C"
-        },
-        {
-            "name": "51singlechip"
-        },
-        {
-            "name": "CATIA"
-        },
-        {
-            "name": "CAD"
-        },
-        {
-            "name": "Rhino"
-        },
-        {
-            "name": "Alias"
-        },
-        {
-            "name": "跳转本电脑快捷键"
-        },
-        {
-            "name": "Keyshot"
+            "name": "CS"
         },
         {
             "name": "小说"
@@ -65,6 +29,30 @@
         },
         {
             "name": "想法"
+        },
+        {
+            "name": "供应链管理"
+        },
+        {
+            "name": "Maths"
+        },
+        {
+            "name": "心头好"
+        },
+        {
+            "name": "Keyshot"
+        },
+        {
+            "name": "本地快捷方式"
+        },
+        {
+            "name": "Matlab"
+        },
+        {
+            "name": "算法"
+        },
+        {
+            "name": "深度学习机器学习"
         }
     ],
     "tags": [
