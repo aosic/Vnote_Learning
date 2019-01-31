@@ -7,22 +7,28 @@
     "recycle_bin_folder": "_v_recycle_bin",
     "sub_directories": [
         {
+            "name": "近期在忙+备忘"
+        },
+        {
+            "name": "CS"
+        },
+        {
+            "name": "physics"
+        },
+        {
+            "name": "Maths"
+        },
+        {
             "name": "哲学反思"
         },
         {
             "name": "读书笔记语录知识摘要"
         },
         {
-            "name": "physics"
-        },
-        {
-            "name": "CS"
-        },
-        {
             "name": "小说"
         },
         {
-            "name": "备忘"
+            "name": "Matlab"
         },
         {
             "name": "我的线上云链接资源"
@@ -31,34 +37,13 @@
             "name": "想法"
         },
         {
-            "name": "供应链管理"
-        },
-        {
-            "name": "Maths"
-        },
-        {
             "name": "心头好"
-        },
-        {
-            "name": "Keyshot"
-        },
-        {
-            "name": "本地快捷方式"
-        },
-        {
-            "name": "Matlab"
-        },
-        {
-            "name": "算法"
         },
         {
             "name": "深度学习机器学习"
         },
         {
-            "name": "莫名其妙乱七八糟的爱好"
-        },
-        {
-            "name": "PPT"
+            "name": "莫名其妙心头好"
         },
         {
             "name": "数学建模"
@@ -70,7 +55,28 @@
             "name": "机械控制数学本质建模与仿真"
         },
         {
-            "name": "树莓派学习教程"
+            "name": "学堂Offline"
+        },
+        {
+            "name": "软件学习"
+        },
+        {
+            "name": "私人笔记"
+        },
+        {
+            "name": "CS硬件"
+        },
+        {
+            "name": "德语"
+        },
+        {
+            "name": "日语"
+        },
+        {
+            "name": "其他"
+        },
+        {
+            "name": "英文字幕组"
         }
     ],
     "tags": [
