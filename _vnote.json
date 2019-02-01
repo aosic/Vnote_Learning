@@ -7,7 +7,7 @@
     "recycle_bin_folder": "_v_recycle_bin",
     "sub_directories": [
         {
-            "name": "近期在忙+备忘"
+            "name": "近期在忙"
         },
         {
             "name": "CS"
@@ -35,9 +35,6 @@
         },
         {
             "name": "想法"
-        },
-        {
-            "name": "心头好"
         },
         {
             "name": "深度学习机器学习"
@@ -73,10 +70,13 @@
             "name": "日语"
         },
         {
-            "name": "其他"
+            "name": "其他+备忘"
         },
         {
             "name": "英文字幕组"
+        },
+        {
+            "name": "Python_R_Jupyter"
         }
     ],
     "tags": [

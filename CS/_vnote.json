@@ -156,7 +156,7 @@
             "attachments": [
             ],
             "created_time": "2019-01-31T00:40:06Z",
-            "modified_time": "2019-01-31T08:28:19Z",
+            "modified_time": "2019-02-01T05:52:05Z",
             "name": "C++数据结构与算法.md",
             "tags": [
             ]
@@ -170,9 +170,44 @@
             "name": "图论.md",
             "tags": [
             ]
+        },
+        {
+            "attachment_folder": "",
+            "attachments": [
+            ],
+            "created_time": "2019-01-31T12:40:46Z",
+            "modified_time": "2019-01-31T12:40:46Z",
+            "name": "CS程序员技术图鉴.md",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "attachments": [
+            ],
+            "created_time": "2019-02-01T05:56:13Z",
+            "modified_time": "2019-02-01T06:10:14Z",
+            "name": "编译原理.md",
+            "tags": [
+            ]
         }
     ],
     "sub_directories": [
+        {
+            "name": "计算机基础知识考研等"
+        },
+        {
+            "name": "大前端"
+        },
+        {
+            "name": "计算机数学"
+        },
+        {
+            "name": "Lambda演算"
+        },
+        {
+            "name": "语言"
+        }
     ],
     "version": "1"
 }
