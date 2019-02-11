@@ -74,9 +74,19 @@ https://blog.csdn.net/lindexi_gd/article/details/79160408
 
 
 ## 清华课程部分数据结构预与法
-https://dsa.cs.tsinghua.edu.cn/oj/清华OJ系统
-https://dsa.cs.tsinghua.edu.cn/~deng/ds/demo/演示代码，火狐能打开![好东西](_v_images/好东西_1548906041_24624.png)
-学生评选精品课大概是因为老师好或者老师本身有水平能将明白吧。
+https://dsa.cs.tsinghua.edu.cn/oj/
+清华OJ系统
+https://dsa.cs.tsinghua.edu.cn/~deng/ds/demo/   演示代码，火狐能打开![好东西](_v_images/好东西_1548906041_24624.png)
+学生评选精品课大概是因为老师好或者老师本身有水平能将明白吧
+
+https://dsa.cs.tsinghua.edu.cn/~deng/ds/src_link   这儿全部的代码在线观察
+https://dsa.cs.tsinghua.edu.cn/~deng/ds/src_link/vector/vector.h.htm  向量模板类所有代码
+
+
+
+
+
+
 ![这个怎么用](_v_images/这个怎么用_1548905806_13711.png) 
 https://zhuanlan.zhihu.com/p/19833798 语言C++历史
 斯大叔为了突破C语言的种种局限，还借鉴了其 他程序设计语言的优点，实践了编程界由来已久的“拿来主义”。例如：C++从Simula拿来了类的概念；从Algol68拿来了操作符重载、引用以及在 任何地方声明变量的能力；从BCPL拿来了“//”注释；从Ada拿来了模板、名字空间；从Ada、Clu和ML拿来了异常处理等。通过这一系列的拿来动 作，C++具备了多种程序设计语言的优秀基因，既系出名门，又博采众家之长，从而完成了从C到C++的进化。随着标准模板库（Standard Template Library，STL）的出现、泛型编程的发展，C++在2000年左右出现了其发展史上的一个高峰
@@ -148,14 +158,55 @@ https://www.jianshu.com/p/f4cca5ce055a十分钟搞定时间复杂度（算法的
 
 
 
+# 栈
+栈混洗，卡特兰数证明
+https://blog.csdn.net/cafuc46wingw/article/details/38538879
+https://www.bbsmax.com/A/kmzLX8VNzG/
+https://blog.csdn.net/cafuc46wingw/article/details/38538879
+https://blog.csdn.net/ACdreamers/article/details/7628667
+卡特兰数（好像很有用的说）https://blog.csdn.net/wu_tongtong/article/details/78161211
+
+　　在<<计算机程序设计艺术>>，第三版，Donald E.Knuth著，苏运霖译，第一卷，508页，给出了证明:
+　　问题大意是用S表示入栈，X表示出栈，那么合法的序列有多少个(S的个数为n)
+　　显然有c(2n, n)个含S，X各n个的序列，剩下的是计算不允许的序列数(它包含正确个数的S和X，但是违背其它条件)。
+　　在任何不允许的序列中，定出使得X的个数超过S的个数的第一个X的位置。然后在导致并包括这个X的部分序列中，以S代替所有的X并以X代表所有的S。结果是一个有(n+1)个S和(n-1)个X的序列。反过来，对一垢一种类型的每个序列，我们都能逆转这个过程，而且找出导致它的前一种类型的不允许序列。例如XXSXSSSXXSSS必然来自SSXSXXXXXSSS。这个对应说明，不允许的序列的个数是c(2n, n-1)，因此h(n )= c(2n, n) - c(2n, n-1)。
 
 
 
+另类递推式：
+　　h(n)=h(n-1)*(4*n-2)/(n+1)
+　递推关系的解为：
+　　h(n)=C(2n,n)/(n+1) (n=0,1,2,...)
+　递推关系的另类解为：
+　　h(n)=c(2n,n)-c(2n,n-1)(n=0,1,2,...)
+   其前几项为 : 1, 1, 2, 5, 14, 42, 132, 429, 1430, 4862, 16796, 58786, 208012, 742900, 2674440, 9694845, 35357670, 129644790, 477638700, 1767263190, 6564120420, 24466267020, 91482563640, 343059613650, 1289904147324, 4861946401452, ...
+ 
+
+# 树
+https://blog.csdn.net/WJWFighting/article/details/81670229 讲最明白还是图示
+
+前缀中缀后缀6种  https://blog.csdn.net/liujiayu1015/article/details/52535829
 
 
+非递归 https://blog.csdn.net/zgaoq/article/details/79089819
 
+二叉树遍历，给出前序中序，求后序的题目，有什么技巧
+已知二叉树后序遍历序列是bfegcda,中序遍历序列是badefcg,它的前序遍历序列是
+A) abcdefg
+B) abdcefg
+C) adbcfeg
+D) abecdfg
 
+参加几场笔试，几乎都遇到这种题目，每一次都要花接近10分钟一个一个尝试，感觉有点浪费时间，这种题目有没有一些比较技巧性的求法
+后：bfegcda
+中：badefcg
 
+后序是出发点，它告诉我们根是a。
 
+然后拿着a去中序分开左右子树为b 和 defcg。
 
+然后拿着左右子树去后序里边找到对应的左右为b何fegcd，b是左子树根，d是右子树根。
 
+拿着两个根又可以去中序里找左右啦。
+
+![](_v_images/1549289952_30681.png)
