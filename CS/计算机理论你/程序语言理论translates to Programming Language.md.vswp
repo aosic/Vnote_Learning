@@ -1,0 +1,207 @@
+vnote_backup_file_826537664 E:/my_Gitbook/CS/计算机理论你/程序语言理论translates to Programming Language.md
+# 教材
+# 程序设计语言理论（PLT）领域里有哪些经典的教材？
+https://www.zhihu.com/question/31883401
+
+https://www.zhihu.com/question/31883401/answer/123323587
+
+
+
+
+
+
+
+https://www.zhihu.com/question/315021281/answer/623876346 语言大一统
+# 程序语言理论的学习对于程序员教育的作用
+https://www.cnblogs.com/zhanglong8681/p/4814102.html
+https://www.zhihu.com/question/27146059
+
+最好的做法就是学习语义，这方面的书籍包括但不限于：
+
+《Essentials of Programming Languages》
+
+《Programming Languages Application and Interpretation》
+
+《Design Concepts in Programming Languages》
+
+等等
+
+之后你会用各种语义的组合的眼光来看现有的各种语言
+
+  
+  
+作者：baozii  
+链接：https://www.zhihu.com/question/315021281/answer/617594687  
+来源：知乎  
+著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
+
+
+作者：游客账户0x0  
+链接：https://www.zhihu.com/question/315021281/answer/623876346  
+来源：知乎  
+著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。  
+  
+
+一般来说，big step semantic足矣。但是只有big step semantic什么性质都导不出来，只是告诉你这个语言是这么运行的罢了。big step semantic也不能很好地告诉你某个语言的特色是什么。
+
+对于有类型的语言，事情就方便多了。参见the definition of standarf ML。这次，除了描述这个语言如何工作，还能证明性质。
+
+最后是denotational semantic。这是个神奇的东西。拿一般的域论语义来说，denotational semantic可以告诉你这个语言支持哪些feature。而且像和continuation，state有关系的那堆东西用denotational semantic会很舒服。直接把continuation和store扔进指称论域就行了。eff的paper里给的就是denotational semantic，因为eff的effect system需要continuation上的操作和store。
+
+多说一句denotational semantic，这玩意还有个bonus大招，就是你把指称论域选成meta language的类型和项，那么你就得到了一个object language的解释器。更有趣的是，big step semantic也能对着写出解释器，但是denotational semantic对应出来是一个HOAS的解释器，而big step semantic对应出来是标准的top down解释器。
+
+  
+
+————————————
+
+用个lambda calculus的解释器来说明一下HOAS是什么。
+
+type expr = Var of string
+
+| Lam of (string * expr)
+
+| App of (expr * expr)
+
+标准的top down版本（big step semantic）
+
+let rec eval context expr =
+
+match expr with
+
+| Var var -> findVar var context
+
+| Lam _ -> expr
+
+| App(e1, e2) ->
+
+match eval context e1 with
+
+| Lam(arg, body) -> eval (addVar arg (eval context e2) context) body
+
+| _ -> error “not a function”
+
+HOAS版本
+
+let var id context = findVar id context
+
+let lam arg body value context = body（addVar arg value context）
+
+let app e1 e2 context = （e1 context）（e2 context）
+
+let eval expr = expr emptyContext
+
+可以看到object language的函数在这里全部变成了meta language的函数。其实HOAS的本质就是用meta language的A功能实现object language的A功能，最常见的就是函数。HOAS也可以用ast来表示code，但这里用的tagless final style演示起来更有特点更清爽（
+
+  
+https://zhuanlan.zhihu.com/c_156166721 # 作为工具的语言
+
+探讨控制机器的文本最好应该是什么样
+—————————————
+
+再次更新。其实big step和small step semantic合称operational semantic。字面意思，用于描述如何“操作”语言。至于big step，small step什么区别，其它的axiom semantic之类，毕竟不是适合在知乎学的东西，好的科普书和paper是很多的。如果要看语义和类型的联系，强烈推荐TAPL
+
+
+
+
+
+编程语言不同，它没有标准答案，所有人都按自己的口味，谁也不服谁。
+
+Java知道吧。JVM刚出来的时候，人们高呼平台差距被统一了，大家再也不用为不同的平台写编译器，直接编译到Java Byte Code就能Write Once Run Everywhere.
+
+然后，微软说，你这JVM设计的不好，我搞个.NET出来。
+
+谷歌说，你们干嘛不用个高级语言做中间代码，你看我基于V8引擎搞个Node，然后你们写JS就好了。
+
+苹果说，你们这些JIT都是罪恶的，AOT才是王道。用我的LLVM照样能统一平台。
+
+你看，本以为JVM能统一平台，结果，蹦出来一大堆同类的能统一平台的产品，结果导致这些“大一统”的产品之间变得不能统一了。
+
+然后大家为了统一本意是统一平台的JVM、.NET、Node、LLVM，又搞出了能编译到各个平台的编程语言。比如Scala，最早可以编译到JVM和.NET，现在Scala.js和Scala Native又能编译到后两个平台。
+
+然后你以为Scala就大一统了？不，历史又一次重复上演，Kotlin出来了，编译到JVM、JS，也能AOT。
+
+F#可以编译到.NET和JS，并且整个.NET支持AOT.
+
+。。。。
+
+  
+  
+作者：李东恒  
+链接：https://www.zhihu.com/question/315021281/answer/617063761  
+来源：知乎  
+著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

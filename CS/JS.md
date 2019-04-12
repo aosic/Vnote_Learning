@@ -1,3 +1,21 @@
+# 教程
+
+https://zhuanlan.zhihu.com/p/58073454
+这份开源的 JavaScript 教程是真的走心
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 先，前端工程师必须得熟练掌握HTML、CSS和JavaScript。只懂其中一个或两个不行，必须对这三个都很熟悉，尤其是JS。

@@ -1,0 +1,17 @@
+{
+    "created_time": "2019-03-01T09:28:51Z",
+    "files": [
+    ],
+    "sub_directories": [
+        {
+            "name": "数论排列组合素数"
+        },
+        {
+            "name": "图论"
+        },
+        {
+            "name": "串"
+        }
+    ],
+    "version": "1"
+}

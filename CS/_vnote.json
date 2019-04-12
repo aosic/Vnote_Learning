@@ -66,7 +66,7 @@
             "attachments": [
             ],
             "created_time": "2018-09-08T11:55:29Z",
-            "modified_time": "2019-03-10T01:27:25Z",
+            "modified_time": "2019-04-05T15:09:50Z",
             "name": "函数式编程语言.md",
             "tags": [
             ]
@@ -126,7 +126,7 @@
             "attachments": [
             ],
             "created_time": "2019-01-31T00:40:06Z",
-            "modified_time": "2019-03-03T11:06:43Z",
+            "modified_time": "2019-03-31T01:34:14Z",
             "name": "数据结构与算法.md",
             "tags": [
             ]
@@ -196,7 +196,7 @@
             "attachments": [
             ],
             "created_time": "2019-02-04T15:57:37Z",
-            "modified_time": "2019-02-04T16:00:26Z",
+            "modified_time": "2019-04-02T08:58:49Z",
             "name": "计算机视觉opencv.md",
             "tags": [
             ]
@@ -206,7 +206,7 @@
             "attachments": [
             ],
             "created_time": "2019-02-10T03:39:59Z",
-            "modified_time": "2019-02-14T09:28:16Z",
+            "modified_time": "2019-04-01T08:00:27Z",
             "name": "新的杂谈笔记.md",
             "tags": [
             ]
@@ -246,7 +246,7 @@
             "attachments": [
             ],
             "created_time": "2019-02-12T13:48:25Z",
-            "modified_time": "2019-03-10T01:27:12Z",
+            "modified_time": "2019-04-02T09:10:04Z",
             "name": "JS.md",
             "tags": [
             ]
@@ -490,6 +490,196 @@
             "name": "ES6.md",
             "tags": [
             ]
+        },
+        {
+            "attachment_folder": "",
+            "attachments": [
+            ],
+            "created_time": "2019-03-17T10:11:28Z",
+            "modified_time": "2019-03-31T01:08:41Z",
+            "name": "JAVA.md",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "attachments": [
+            ],
+            "created_time": "2019-03-17T14:35:17Z",
+            "modified_time": "2019-03-17T15:35:04Z",
+            "name": "AnnacondaPython.md",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "attachments": [
+            ],
+            "created_time": "2019-03-18T09:05:51Z",
+            "modified_time": "2019-04-07T03:36:40Z",
+            "name": "JAVA数据结构.md",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "attachments": [
+            ],
+            "created_time": "2019-03-23T23:48:01Z",
+            "modified_time": "2019-03-24T00:01:32Z",
+            "name": "Mathematica.md",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "attachments": [
+            ],
+            "created_time": "2019-03-25T13:49:56Z",
+            "modified_time": "2019-03-25T13:49:56Z",
+            "name": "DLL文件等软件开发文件.md",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "attachments": [
+            ],
+            "created_time": "2019-04-01T07:38:24Z",
+            "modified_time": "2019-04-01T07:55:47Z",
+            "name": "学术论文捣烂.md",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "attachments": [
+            ],
+            "created_time": "2019-04-01T10:40:13Z",
+            "modified_time": "2019-04-01T10:41:18Z",
+            "name": "《软件基础》中文版正式上线.md",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "attachments": [
+            ],
+            "created_time": "2019-04-02T08:43:47Z",
+            "modified_time": "2019-04-02T09:09:03Z",
+            "name": "Haskell入门张凇+数据结构.md",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "attachments": [
+            ],
+            "created_time": "2019-04-02T08:51:12Z",
+            "modified_time": "2019-04-02T08:51:21Z",
+            "name": "牛逼讲义.md",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "attachments": [
+            ],
+            "created_time": "2019-04-02T08:59:00Z",
+            "modified_time": "2019-04-02T08:59:13Z",
+            "name": "图像处理机器学习.md",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "attachments": [
+            ],
+            "created_time": "2019-03-01T09:47:23Z",
+            "modified_time": "2019-03-01T09:50:53Z",
+            "name": "总是套路得人心刷题网站.md",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "attachments": [
+            ],
+            "created_time": "2019-04-02T14:45:30Z",
+            "modified_time": "2019-04-02T14:56:38Z",
+            "name": "COM.md",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "attachments": [
+            ],
+            "created_time": "2019-04-03T13:32:14Z",
+            "modified_time": "2019-04-03T13:32:14Z",
+            "name": "算法代码需要说明书-厌倦代码屎山逆向建模想想.md",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "attachments": [
+            ],
+            "created_time": "2019-04-03T15:06:16Z",
+            "modified_time": "2019-04-03T15:08:59Z",
+            "name": "计算机的数学思想源头Maths.md",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "attachments": [
+            ],
+            "created_time": "2019-04-05T12:55:40Z",
+            "modified_time": "2019-04-05T12:55:40Z",
+            "name": "树莓派开机.md",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "attachments": [
+            ],
+            "created_time": "2019-04-06T11:33:14Z",
+            "modified_time": "2019-04-06T11:33:28Z",
+            "name": "23JAVA设计模式.md",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "attachments": [
+            ],
+            "created_time": "2019-04-11T11:15:13Z",
+            "modified_time": "2019-04-11T11:42:41Z",
+            "name": "算法导论.md",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "attachments": [
+            ],
+            "created_time": "2019-04-11T11:45:10Z",
+            "modified_time": "2019-04-11T15:06:30Z",
+            "name": "实验楼教程全家桶.md",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "attachments": [
+            ],
+            "created_time": "2019-04-11T14:24:51Z",
+            "modified_time": "2019-04-11T14:25:00Z",
+            "name": "研究生真的会退学吗.md",
+            "tags": [
+            ]
         }
     ],
     "sub_directories": [
@@ -506,7 +696,7 @@
             "name": "Lambda演算"
         },
         {
-            "name": "语言"
+            "name": "形式化证明逻辑推理语义自动机"
         },
         {
             "name": "杂谈"
@@ -516,6 +706,30 @@
         },
         {
             "name": "BitCoin"
+        },
+        {
+            "name": "现代算法"
+        },
+        {
+            "name": "机器学习"
+        },
+        {
+            "name": "雾雨魔法店"
+        },
+        {
+            "name": "深度学习机器学习"
+        },
+        {
+            "name": "Python_R_Jupyter"
+        },
+        {
+            "name": "计算机论文"
+        },
+        {
+            "name": "计算机理论你"
+        },
+        {
+            "name": "计算机前沿报告会议"
         }
     ],
     "version": "1"

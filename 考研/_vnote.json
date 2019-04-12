@@ -6,13 +6,31 @@
             "attachments": [
             ],
             "created_time": "2019-03-05T08:22:13Z",
-            "modified_time": "2019-03-05T08:22:13Z",
+            "modified_time": "2019-04-02T10:04:18Z",
             "name": "考研政治.md",
             "tags": [
             ]
         }
     ],
     "sub_directories": [
+        {
+            "name": "英语"
+        },
+        {
+            "name": "maths"
+        },
+        {
+            "name": "专业课1数据结构"
+        },
+        {
+            "name": "专业课网络"
+        },
+        {
+            "name": "专业课操作系统"
+        },
+        {
+            "name": "专业课组成原理"
+        }
     ],
     "version": "1"
 }

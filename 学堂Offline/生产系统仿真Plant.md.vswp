@@ -1,0 +1,304 @@
+vnote_backup_file_826537664 E:/my_Gitbook/学堂Offline/生产系统仿真Plant.md
+JT文件格式是Siemens（[西门子](https://www.baidu.com/s?wd=%E8%A5%BF%E9%97%A8%E5%AD%90&tn=SE_PcZhidaonwhc_ngpagmjz&rsv_dl=gh_pc_zhidao)） PLM Software开发的轻型3D模型文件格式，可以使用JT2Go软件打开。  
+　　Siemens（[西门子](https://www.baidu.com/s?wd=%E8%A5%BF%E9%97%A8%E5%AD%90&tn=SE_PcZhidaonwhc_ngpagmjz&rsv_dl=gh_pc_zhidao)） PLM Software是全球领先的产品生命周期管理（PLM）软件与服务提供商。JT文件格式设计为一个开放、高效率的、紧凑，持久性存储的产品数据格式；用于产品可视化、协作和CAD数据共享。JT文件格式包括多方面的数据，以及对曲面边界的精准表示，产品和制造业的相关信息，元数据信息，这些信息都可以CAD文件系统导出并可以被产品数据管理(PDM) 系统导入到软件里。
+
+
+# SimTalk
+
+　　[http://www.itpub.net/viewthread.php?tid=1287272&hinghlight=SinTalk](http://www.itpub.net/viewthread.php?tid=1287272&hinghlight=SinTalk)
+　　
+
+http://www.itpub.net/viewthread.php?tid=1452011&extra=page%3D1&frombbs=1
+
+# NP-Complete
+Nondeterministic Polynomial Complete Problem
+
+
+[http://www.itpub.net/thread-1287272-1-1.html](http://www.itpub.net/thread-1287272-1-1.html)
+
+
+
+
+
+# 备忘
+
+D:\Program Files\Siemens\Tecnomatix Plant Simulation 13
+
+# 技巧
+扩展启动选项 E:/chm_files/Plant/CHM/id74918.html
+F1：打开帮助文档
+
+F2：重命名
+
+F3：搜索。可搜索根目录下所有对象名、源代码、变量等
+
+F4：重命名当前Frame
+
+F5：继续运行由于debug或断点中断的程序
+
+F6：查看统计信息
+
+F8：查看属性
+
+F9：添加类断点
+
+F10：调试时逐句运行
+
+F11：查看当前对象自定义属性
+
+F12：查看当前对象控制方法
+
+Shift + F9：仅对当前方法添加断点
+
+Ctrl + Space：代码自动补全
+
+Alt + C：自动缩进
+
+Ctrl + Shift+ Q：注释当前语句
+
+Ctrl + T：旋转图标
+
+
+
+多按下列按钮看着学习：
+F8  属性  F4重命名   shift F1对象属性
+
+reset Init Endsim
+
+# **匿名表达式**
+
+@   MU对象
+
+？ 调用当前Method的物流对象
+
+Self 执行Method本身
+
+Current   执行Method所在Frame
+
+Location  正执行的Method所在 Frame，指代正在处理他的物流对象，<Object， >.Location表示正在处理他的物流对象，@.Location返回MU所在物流对象绝对路径
+
+~是Location缩写
+
+Root 模型顶级Frame，第四章
+
+
+# Simtalk   20
+
+/*
+param action: string
+
+switch action
+case "Open"
+	-- TODO: add code for the "Open" action here
+	-- E.g. ?.setCaption("TextBox", "Test")
+	-- E.g. ?.setCheckBox("CheckBox", true)
+case "Apply"
+	-- TODO: add code for the "Apply" action here
+	-- E.g. print ?.getValue("TextBox")
+	-- E.g. print ?.GetCheckBox("CheckBox")
+case "Close"
+	-- TODO: add code for the "Close" action here
+end
+(action : string)
+*/
+
+
+
+www.plantsim.top/simtalk-编程技巧和建议/
+### 善用debug
+
+在程序运行中，有时会出现意外的情况，但是并不会打断程序执行，如move语句执行失败，程序会继续运行。当出现错误时，问题的根源已难以追溯。debug语句就可以在问题发生时，及时中断程序。下面列举一些debug的适用范围。
+
+-   move：move失败错误比较隐蔽，经常会在很长时间之后发生错误。建议使用以下方法：
+
+if not move()
+
+debug
+
+end
+
+-   find：如果在一个表中使用find查找一个值，而这个值应该出现在表中。那么如果出现错误，并没有这个值，那么find语句并不会报错，而是返回初始游标位置，找到错误的值。建议使用以下方法：
+
+if TableFile.find({*,*}..{*,*},aValue)  
+else
+
+debug
+
+end
+
+-   if：可以在if语句未涵盖到的部分添加debug，以检验当前程序逻辑。例如：
+
+if condition1
+
+elseif condition2
+
+else
+
+debug
+
+end
+
+### 利用高效语句
+
+正常的仿真运行对程序效率要求不高，但是当仿真时间较长，需要进行大规模实验的时候，运行效率的问题变得尤为重要。这里列举一些高效的语句供参考。
+
+-   使用switch…case…end (inspect…when…end) 代替 if…elseif…end （条件较多时）
+-   使用copyRangeTo / writeRow 等代替循环语句写表，减少表格读取次数。
+-   尽量使用局部变量代替全局变量，包括表格。
+
+### 循环语句的终止条件
+
+for循环不涉及该问题，但是while循环和repeat循环极有可能因为终止条件不完善陷入死循环。所以在使用这两种循环时，要注意设置循环次数的限制，添加计数器。例如：
+
+repeat
+
+«loop_statements»  
+i+=1
+
+until «exit_condition» or i>1000
+
+
+
+
+
+
+
+www.plantsim.top/simtalk常用函数介绍（四）：数学运算相关函数/
+
+
+www.plantsim.top/simtalk常用函数介绍（三）：表格操作相关函数/
+
+www.plantsim.top/simtalk常用函数介绍（一）：字符串操作相关函数/
+
+
+www.plantsim.top/simtalk常用函数介绍（二）：数组操作相关函数/
+
+
+www.plantsim.top/非整型数值变量使用时需要注意的问题/
+
+# 数据库交互和COM,ActiveX。。。
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# Method 
+208
+InheritSources Scource Code
+
+**![](_v_images/1553782779_3277.png)**
+
+
+
+
+
+
+
+
+
+一般蓝色method不能直接运行，绿色可以。
+
+
+
+红 故障
+蓝色 暂停
+绿色 正常工作
+黄色 阻塞
+棕色 正常工作准备
+灰色 缺乏必要资源而等待
+淡蓝 恢复状态
+
+![](_v_images/1553781239_9434.png)
+
+
+
+
+# 
+![](_v_images/1553781308_19466.png)
+
+
+
+
+
+
+
+
+
+
+
+# 开发限制
+当您使用C接口链接自己编程的DLL时，此DLL必须编译为64位DLL。
+
+对于ActiveX对象，您需要64位ActiveX控件。
+
+对于ODBC接口，还需要用于ODBC的 64位驱动程序。从Microsoft Office 2010开始，Microsoft为Access，Excel等提供64位ODBC驱动程序。
+
+该OPC接口只能解决OPC服务器的64位版本。
+
+
+FlowControl VS Exit Strategy属性
+133
+
+InterFace层次
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
