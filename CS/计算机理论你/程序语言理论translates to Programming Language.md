@@ -4,7 +4,47 @@ https://www.zhihu.com/question/31883401
 
 https://www.zhihu.com/question/31883401/answer/123323587
 
+[阿莱克西斯](https://www.zhihu.com/people/ming-zi-zong-shi-hen-nan-qi)
 
+、
+
+[Oling Cat](https://www.zhihu.com/people/olingcat)
+ 神课 https://www.cs.uoregon.edu/research/summerschool/summer15/curriculum.html
+、
+
+[lfkdsk](https://www.zhihu.com/people/lfkdsk)
+
+、
+
+[圆角骑士魔理沙](https://www.zhihu.com/people/marisa.moe)
+
+等 133 人赞同了该回答
+
+谢邀, 其实我是不喜欢这种列举书单的问题, 你为什么不问问神奇海螺呢?  
+但是居然有三个人邀请, 那就答一下好了.
+
+在我的视野里, *综合类*PL的教材一般分两种, 一种是整本书里会分不同的主题, PL里的一些基本元素(语法, 语义), 数据抽象模型, 并发/并行模型之类的. 还有一种就是写解释器, 从头到尾都在写解释qi之类的, 当然还有不少"异类", 专注写某个主题的也有很多.
+
+综合类比较新的大概Sebesta的[Concepts of Programming Languages (豆瓣)](https://link.zhihu.com/?target=http%3A//book.douban.com/subject/10581203/), 我看过第八版的中文版前面几章觉得比较枯燥无味, 现在已经出到第十版了, 还有一本比较新的是Scott的[Programming Language Pragmatics, Third Edition (豆瓣)](https://link.zhihu.com/?target=http%3A//book.douban.com/subject/3743526/) 我看的是裘宗燕翻译的第二版, 现在已经出到第三版, 当时读这本书的感觉很舒服, 对PL的很多东西有一个概览, 而且牵涉了一点编译器,虚拟机运行时,体系结构的东西, 当时还没接触编译原理, 这些部分很有意思. 其他的还有[Concepts in Programming Languages (豆瓣)](https://link.zhihu.com/?target=http%3A//book.douban.com/subject/2587705/) 没看过
+
+然后解释器流. 先不说很纯的那种, SICP跟CTM像是中间派, 还有本也是MIT出的[Design Concepts in Programming Languages (豆瓣)](https://link.zhihu.com/?target=http%3A//book.douban.com/subject/3235958/) 没看过, 这类都是用一种语言讲到底的, 而不是之前那些各种语言都拿来说一下. 纯解释器流最出名的估计是EoPL [Essential of Programming Languages, 3rd Edition (豆瓣)](https://link.zhihu.com/?target=http%3A//book.douban.com/subject/3136252/), 另外有本不是很出名的LiSP [Lisp in Small Pieces (豆瓣)](https://link.zhihu.com/?target=http%3A//book.douban.com/subject/1456904/) , 还有近年Racket那边的人写的[Programming Languages (豆瓣)](https://link.zhihu.com/?target=http%3A//book.douban.com/subject/11628134/) 全书免费公开, 还有课程视频, 真业界良心. 还有本比较旧的Programming Languages: An Interpreter-Based Approach 在被改写成 [Programming Languages: Build, Prove, and Compare](https://link.zhihu.com/?target=http%3A//www.cs.tufts.edu/~nr/build-prove-compare/)
+
+类型系统走不掉TaPL [Types and Programming Languages](https://link.zhihu.com/?target=http%3A//book.douban.com/subject/1761910/)还有 ATaPL, Harper的[Practical Foundations for Programming Languages (豆瓣)](https://link.zhihu.com/?target=http%3A//book.douban.com/subject/11632210/)
+
+**至于路线什么的, 挑门FP语言写各种解释器把 [Lambda cube](https://link.zhihu.com/?target=https%3A//en.wikipedia.org/wiki/Lambda_cube) 每个角都过一遍就好.**
+
+  
+
+列文献我也有一车啊, 那又怎么样  
+[Undergraduate Courses About Programming Languages](https://link.zhihu.com/?target=http%3A//www.eecs.ucf.edu/~leavens/teaching-prog-lang/Undergraduate.html)  
+[Graduate Courses About Programming Languages](https://link.zhihu.com/?target=http%3A//www.eecs.ucf.edu/~leavens/teaching-prog-lang/Graduate.html)  
+[wiki/index.md at master · soimort/wiki · GitHub](https://link.zhihu.com/?target=https%3A//github.com/soimort/wiki/blob/master/plt/index.md)  
+[Readings for CS 152](https://link.zhihu.com/?target=http%3A//www.cs.tufts.edu/~nr/cs152/readings/indexbody.html)  
+[编程语言相关的好书 \- Continuation - 知乎专栏](http://zhuanlan.zhihu.com/forallplt/19917853)  
+[ProgrammingLanguageTheoryTextsOnline < Techno < UUCS](https://link.zhihu.com/?target=http%3A//www.cs.uu.nl/wiki/Techno/ProgrammingLanguageTheoryTextsOnline)  
+[文献汇编](https://link.zhihu.com/?target=http%3A//www.math.pku.edu.cn/teachers/qiuzy/plan/lits/)
+
+伸手党退散, 就是这样
 
 
 
