@@ -1,4 +1,332 @@
+# 正确的学习方法是跑正确的例程
+```
 
+Plant13软件安装根目录:.
+├─3D # 模型库
+│  ├─jt-graphics
+│  └─s3d-graphics
+│      ├─BuffersAndSorters
+│      ├─EOM
+│      ├─Transporters
+│      └─Workers
+├─BasicObjects# 模型库
+├─C-Interface  #C语言接口使用教程样例
+├─Clipart #图标库
+│  ├─Chart
+│  ├─Misc
+│  ├─Movable
+│  ├─Schulung
+│  └─Training
+├─Examples # 各种使用教程样例，超级有用!
+│  ├─3D
+│  └─Demo#用到什么学什么，看会直接用，模仿做一个
+│      └─German
+├─Help
+│  └─Videos# 视频有点用，就是chm文字版很垃圾，
+├─Languages
+│  ├─CHS
+│  ├─DEU
+│  ├─HUN
+│  ├─JPN
+│  └─RUS
+├─Libraries#类库，可以加载管理工程类库
+│  ├─Standard
+│  │  ├─Free
+│  │  └─Licensed
+│  │      ├─Assembly
+│  │      ├─Process Designer Interface
+│  │      ├─Shop
+│  │      └─Value Stream Mapping
+│  └─Tools
+├─License Server Binaries
+├─OPC Core Components
+├─Teamcenter
+│  └─Saxon MPL notices
+├─Templates    # Method代码模板------用到相应的代码，复制进去Method改吧改吧就完事儿了
+│  ├─English
+│  │  ├─Broker
+│  │  ├─Code Snippets
+│  │  ├─Dialog
+│  │  ├─Entrance Control
+│  │  ├─Exit Control
+│  │  ├─Exporter
+│  │  ├─Importer
+│  │  ├─Interaction
+│  │  ├─Processing Time
+│  │  └─Sensor Control
+│  └─German#不看
+│      ├─Ausgangssteuerungen
+│      ├─Bearbeitungszeiten
+│      ├─Broker
+│      ├─Code-Schnipsel
+│      ├─Dialog
+│      ├─Eingangssteuerungen
+│      ├─Exporter
+│      ├─Importer
+│      ├─Interaktion
+│      └─Sensorsteuerungen
+├─Tutorial#  入门必看，先看视频！
+├─WIBU Driver
+├─wrltojt
+└─xt2jt
+    └─Schema
+
+```
+
+
+*.jt,*.s3d
+## Examples学习笔记！！！！！！
+![英文版HTML用Chrome打开](_v_images/英文版html用ch_1556851626_23537.png)
+翻译之后的结果：
+
+![help中文版用法](_v_images/help中文版用法_1556851571_29147.png)
+闲着有空，你还可以把它翻译成中文chm发布。
+
+
+
+
+
+
+
+# 技巧
+
+扩展启动选项 E:/chm_files/Plant/CHM/id74918.html
+
+F1：打开帮助文档
+
+  
+
+F2：重命名
+
+  
+
+F3：搜索。可搜索根目录下所有对象名、源代码、变量等
+
+  
+
+F4：重命名当前Frame
+
+  
+
+F5：继续运行由于debug或断点中断的程序
+
+  
+
+F6：查看统计信息
+
+  
+
+F8：查看属性
+
+  
+
+F9：添加类断点
+
+  
+
+F10：调试时逐句运行
+
+  
+
+F11：查看当前对象自定义属性
+
+  
+
+F12：查看当前对象控制方法
+
+  
+
+Shift + F9：仅对当前方法添加断点
+
+  
+
+Ctrl + Space：代码自动补全
+
+  
+
+Alt + C：自动缩进
+
+  
+
+Ctrl + Shift+ Q：注释当前语句
+
+  
+
+Ctrl + T：旋转图标
+
+  
+
+  
+
+  
+
+多按下列按钮看着学习：
+
+F8 属性 F4重命名 shift F1对象属性
+
+  
+
+reset Init Endsim
+
+  
+
+# **匿名表达式**
+
+  
+
+•@--表示触发物流对象control的MU
+
+  
+
+• basis--表示 class library
+
+  
+
+• current--表示method所在的frame
+
+  
+
+• ?---表示调用method的实体（物流对象或method)
+
+  
+
+  
+
+Self 执行Method本身
+
+  
+
+Current 执行Method所在Frame
+
+  
+
+Location 正执行的Method所在 Frame，指代正在处理他的物流对象，<Object， >.Location表示正在处理他的物流对象，@.Location返回MU所在物流对象绝对路径
+
+  
+
+~是Location缩写
+
+  
+
+Root 模型顶级Frame，第四章
+
+  
+
+!\[语句是错的\](\_v\_images/语句是错的\_1555672447\_25759.png)
+
+# Simtalk 20
+
+  
+
+/*
+
+param action: string
+
+  
+
+switch action
+
+case "Open"
+
+\-\- TODO: add code for the "Open" action here
+
+\-\- E.g. ?.setCaption("TextBox", "Test")
+
+\-\- E.g. ?.setCheckBox("CheckBox", true)
+
+case "Apply"
+
+\-\- TODO: add code for the "Apply" action here
+
+\-\- E.g. print ?.getValue("TextBox")
+
+\-\- E.g. print ?.GetCheckBox("CheckBox")
+
+case "Close"
+
+\-\- TODO: add code for the "Close" action here
+
+end
+
+(action : string)
+
+*/
+
+  
+
+  
+
+  
+
+www.plantsim.top/simtalk-编程技巧和建议/
+
+### 善用debug
+
+  
+
+在程序运行中，有时会出现意外的情况，但是并不会打断程序执行，如move语句执行失败，程序会继续运行。当出现错误时，问题的根源已难以追溯。debug语句就可以在问题发生时，及时中断程序。下面列举一些debug的适用范围。
+
+  
+
+\- move：move失败错误比较隐蔽，经常会在很长时间之后发生错误。建议使用以下方法：
+
+  
+
+if not move()
+
+  
+
+debug
+
+  
+
+end
+
+  
+
+\- find：如果在一个表中使用find查找一个值，而这个值应该出现在表中。那么如果出现错误，并没有这个值，那么find语句并不会报错，而是返回初始游标位置，找到错误的值。建议使用以下方法：
+
+  
+
+if TableFile.find({*,*}..{*,*},aValue)
+
+else
+
+  
+
+debug
+
+  
+
+end
+
+  
+
+\- if：可以在if语句未涵盖到的部分添加debug，以检验当前程序逻辑。例如：
+
+  
+
+if condition1
+
+  
+
+elseif condition2
+
+  
+
+else
+
+  
+
+debug
+
+  
+
+end
+
+
+
+[5] 周金平 
 SimTalk 2.0的变化：
 
 Ø  抛弃is……do……end的结构；
@@ -76,6 +404,30 @@ ________________________________________
 
 
 来源：CSDN 
+
+# 全局变量
+you can access an object **Variable**, which is located in an arbitrary network (object Frame).
+
+For instance:
+```
+
+ root.Frame.variable := 10;  
+ local n := root.Frame.variable;  
+ print n;
+
+```
+
+Note that **root** is your simulation frame, which containes the **Eventcontroller**.
+
+Regards,
+
+Peter
+
+
+
+
+
+
 
 原文：
 
@@ -194,126 +546,6 @@ Nondeterministic Polynomial Complete Problem
 
 D:\Program Files\Siemens\Tecnomatix Plant Simulation 13
 
-# 技巧
-扩展启动选项 E:/chm_files/Plant/CHM/id74918.html
-F1：打开帮助文档
-
-F2：重命名
-
-F3：搜索。可搜索根目录下所有对象名、源代码、变量等
-
-F4：重命名当前Frame
-
-F5：继续运行由于debug或断点中断的程序
-
-F6：查看统计信息
-
-F8：查看属性
-
-F9：添加类断点
-
-F10：调试时逐句运行
-
-F11：查看当前对象自定义属性
-
-F12：查看当前对象控制方法
-
-Shift + F9：仅对当前方法添加断点
-
-Ctrl + Space：代码自动补全
-
-Alt + C：自动缩进
-
-Ctrl + Shift+ Q：注释当前语句
-
-Ctrl + T：旋转图标
-
-
-
-多按下列按钮看着学习：
-F8  属性  F4重命名   shift F1对象属性
-
-reset Init Endsim
-
-# **匿名表达式**
-   
-
-•@--表示触发物流对象control的MU
-
-• basis--表示 class library
-
-• current--表示method所在的frame
-
-• ?---表示调用method的实体（物流对象或method)
-
-
-Self 执行Method本身
-
-Current   执行Method所在Frame
-
-Location  正执行的Method所在 Frame，指代正在处理他的物流对象，<Object， >.Location表示正在处理他的物流对象，@.Location返回MU所在物流对象绝对路径
-
-~是Location缩写
-
-Root 模型顶级Frame，第四章
-
-![语句是错的](_v_images/语句是错的_1555672447_25759.png)
-# Simtalk   20
-
-/*
-param action: string
-
-switch action
-case "Open"
-	-- TODO: add code for the "Open" action here
-	-- E.g. ?.setCaption("TextBox", "Test")
-	-- E.g. ?.setCheckBox("CheckBox", true)
-case "Apply"
-	-- TODO: add code for the "Apply" action here
-	-- E.g. print ?.getValue("TextBox")
-	-- E.g. print ?.GetCheckBox("CheckBox")
-case "Close"
-	-- TODO: add code for the "Close" action here
-end
-(action : string)
-*/
-
-
-
-www.plantsim.top/simtalk-编程技巧和建议/
-### 善用debug
-
-在程序运行中，有时会出现意外的情况，但是并不会打断程序执行，如move语句执行失败，程序会继续运行。当出现错误时，问题的根源已难以追溯。debug语句就可以在问题发生时，及时中断程序。下面列举一些debug的适用范围。
-
--   move：move失败错误比较隐蔽，经常会在很长时间之后发生错误。建议使用以下方法：
-
-if not move()
-
-debug
-
-end
-
--   find：如果在一个表中使用find查找一个值，而这个值应该出现在表中。那么如果出现错误，并没有这个值，那么find语句并不会报错，而是返回初始游标位置，找到错误的值。建议使用以下方法：
-
-if TableFile.find({*,*}..{*,*},aValue)  
-else
-
-debug
-
-end
-
--   if：可以在if语句未涵盖到的部分添加debug，以检验当前程序逻辑。例如：
-
-if condition1
-
-elseif condition2
-
-else
-
-debug
-
-end
-
 ### 利用高效语句
 
 正常的仿真运行对程序效率要求不高，但是当仿真时间较长，需要进行大规模实验的时候，运行效率的问题变得尤为重要。这里列举一些高效的语句供参考。
@@ -429,6 +661,14 @@ FlowControl VS Exit Strategy属性
 
 InterFace层次
 
+
+### GA
+
+  
+
+  
+
+### Experiments
 
 
 

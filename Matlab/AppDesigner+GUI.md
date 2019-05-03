@@ -1,12 +1,12 @@
 # AppDesigner&GUI
-
+https://download.csdn.net/download/sujuanliu/2135301  MATLAB GUI 设计小程序
 
 https://zhuanlan.zhihu.com/p/41334908    GUIROS技术点滴 —— Matlab&ROS可视化编程
 Matlab中的robotics system toolbox提供了ROS的大部分功能，可以通过Matlab启动ROS Master、创建ROS节点、发布ROS消息/服务、查看ROS话题数据、控制ROS机器人等，更重要的是可以结合Matlab强大的功能，实现机器人算法设计，然后接入ROS系统，配合gazebo或者V-REP完成仿真。我们将这个Matlab中的ROS工具包简称为ROS-MATLAB。
 
+这https://blog.csdn.net/cuixing001/article/details/78587785个 simulink 作者的说明文档，作者做这个的本意是想创建一个 Android 的库，用来获取 Android 手机上的数据，进而和 pc 机上 matlab model 交互。https://blogs.mathworks.com/loren/2018/07/25/the-state-of-app-building-in-matlab/
 
-
-
+从 GUIDE 到 App Designer 的MATLAB迁移转换工具https://blog.csdn.net/weixin_42825609/article/details/85257265
 
 https://zhuanlan.zhihu.com/p/20821503    MATLAB App Designer教程连载1：如何使用App Designer进行的简单的GUI设计
 Mathworks在R2016a中正式推出了GUIDE的替代产品:AppDesigner
