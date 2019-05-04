@@ -1,5 +1,57 @@
 # downgit.zhoudaxiaa.com/#/home
 https://www.zhihu.com/question/21248859/answer/593173022
+```
+! [remote rejected] master -> master (pre-receive hook declined)
+
+```
+### 1.将所要push的内容所在的分支的protected权限关闭
+
+(1)进入所在项目的settings
+
+![](http://i.imgur.com/F8Lgf37.png)
+
+(2)点击进入Protected branches,点击unprotected将master分支的权限改变，即关闭master的protected权限
+
+![](http://i.imgur.com/aLQQpJn.png)
+
+### 2.新建其它分支，将项目push到新建的分支上，后期再进行merge
+
+(1)新建分支
+
+```
+git branch 分支名
+```
+
+(2)切换分支
+
+```
+git checkout 分支名
+```
+
+(3)进行项目上传
+
+```
+git add .
+
+git commit -m "提交的信息"
+
+git remote add origin 远程仓库地址
+
+git push -u origin 分支名
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
