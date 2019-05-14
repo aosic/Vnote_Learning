@@ -1,7 +1,5 @@
 
-
-https://www.zhihu.com/question/27087877/answer/35196137
-OCaml or Haskell?
+https://zhuanlan.zhihu.com/p/64493662
 
 
 
