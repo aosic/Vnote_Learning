@@ -13,6 +13,136 @@ csdn教程1-16https://blog.csdn.net/mwsong/article/details/1765871
 国外有用教程：www.pathwayslms.com/swipltuts/
 https://mitpress.ublish.com/book/art-prolog
 
+https://blog.csdn.net/qq_35487325/article/details/85559341
+Prolog教程 8---数学计算
+
+
+www.swi-prolog.org/pldoc/man?section=clpb  超强无敌的教程官网
+
+```
+:- use_module(library(clpb)).
+
+solve(L) :-
+    L = [A,B,C,D],
+    % A : true means the child is a boy
+    % B : true means the child tells the truth
+    % C : true means person 1 is a man
+    % D : true means person 2 is a man
+
+
+    % person 1 : The child said he was a boy (and a man tells the truth)
+    % if person 1 is a man
+    sat(C =< A),
+    % if person 1 is a woman, we can't write anything
+    % because there's only one sentence
+
+
+    % person 2 "The child is a girl, the child lied"
+    % if person 2 is a man
+    sat(D =< ~A * ~B),
+    % if person 2 is a woman
+    sat(~D =< ((~A # B) # (A # ~B))),
+
+    % Prolog works
+    labeling([A,B,C,D]).
+
+```
+
+
+?- solve(L).
+L = [0, 0, 0, 1].
+
+
+
+
+
+
+```
+:- use_module(library(clpb)).
+
+solve(L) :-
+    L = [A,B,C],
+    % A : true means the child is a boy
+    % B : true means the child tells the truth
+    % C : true means person 2 is a man
+
+
+    % person 2 "The child is a girl, the child lied"
+    % if person 2 is a man
+    sat(C =< ~A * ~B),
+    % if person 2 is a woman
+    sat(~C =< ((~A # B) # (A # ~B))),
+
+    % Prolog works
+    labeling([A,B,C]).
+
+
+
+
+
+
+
+
+```
+
+
+?- solve(L).
+L = [0, 0, 1].
+
+
+```
+
+
+0	false
+1	true
+variable	unknown truth value
+atom	universally quantified variable
+~ Expr	logical NOT
+Expr + Expr	logical OR
+Expr * Expr	logical AND
+Expr # Expr	exclusive OR
+Var ^ Expr	existential quantification
+Expr =:= Expr	equality
+Expr =\= Expr	disequality (same as #)
+Expr =< Expr	less or equal (implication)
+Expr >= Expr	greater or equal
+Expr < Expr	less than
+Expr > Expr	greater than
+card(Is,Exprs)	cardinality constraint (see below)
++(Exprs)	n-fold disjunction (see below)
+*(Exprs)	n-fold conjunction (see below)
+
+
+
+
+# Interface predicates
+The most frequently used CLP(B) predicates are:
+
+sat(+Expr)
+True iff the Boolean expression Expr is satisfiable.
+taut(+Expr, -T)
+If Expr is a tautology with respect to the posted constraints, succeeds with T = 1. If Expr cannot be satisfied, succeeds with T = 0. Otherwise, it fails.
+labeling(+Vs)
+Assigns truth values to the variables Vs such that all constraints are satisfied.
+The unification of a CLP(B) variable X with a term T is equivalent to posting the constraint sat(X=:=T).
+
+
+接口谓词
+最常用的CLP(B)谓词是:
+坐(+ Expr)
+如果布尔表达式Expr是可满足的。
+拉紧(+ Expr - t)
+如果Expr是与发布的约束相关的同义反复，则T = 1成功。如果不能满足Expr，则成功执行T = 0。否则,它就会失败。
+标签(+ Vs)
+将真值赋给变量Vs，以便满足所有约束。
+CLP(B)变量X与项T的统一等价于发布约束sat(X=:=T)。
+
+
+
+
+```
+
+
 
 the art of prolog
 ![而且封面还是中国画，我在图书馆看到的时候也是觉得挺神奇的。](_v_images/1557741751_22045.png)
@@ -119,7 +249,7 @@ Datalog 的Horn logic (function-free)子语言是RuleML的语义基础。Datalog
 www.cnblogs.com/elvisqi/p/3536685.html
 
 
-案例
+# 案例
 科研，八皇后，推理小问题，逻辑思考问题
 Hanoi汉诺塔，魔方4色图数独。。。。。。
 hanoi(N):- ove(N,left,center,right)
@@ -130,6 +260,71 @@ move(N,A,B,C)
     inform(A,B)
     move(M,C,B,A)
 inform(x,y):-write('move from'),write(X),write('to'),write(Y),write('.'),nl.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+https://sg.answers.yahoo.com/question/index?qid=20070503170827AA20Xk2&guccounter=1&guce_referrer=aHR0cHM6Ly9jbi5iaW5nLmNvbS8&guce_referrer_sig=AQAAAIZZSFBWOePHGvGjyTd-cXhDveHHYabHvLsu87HQnv6jKIeiyNMJYBl2PjPPO48hISTSLZsBXgLzUHRIHIn91Tf3QhwlWGOqbED4-X0O71bIMjEsbhjs2f5_7iWm8HRznU7yhtaO-A45gU4ZD7O776Uu6OuDDFhoDIRb5QZ7_Qoa
+
+**Did the tour guide tell the truth or a lie?**
+Jonny visits an island. There are two tribes on the island. One tribe always tells the truth, and the other always lies. Jonny saw a guy passing him and askes his tour guide to ask the guy where he lived. The tour guide asked the guy and came back with the answer: the guys lives over west (tribe that tells the truth). Did the tour guide tell the truth or a lie?
+
+
+
+https://math.stackexchange.com/questions/179968/what-is-the-name-of-the-logical-puzzle-where-one-always-lies-and-another-always/184907#184907
+
+
+
+https://stackoverflow.com/questions/55602609/prolog-tells-me-a-procedure-is-undefined-when-it-appears-to-be-defined
+
+https://stackoverflow.com/questions/49323894/prolog-solution-of-a-riddle
+解决办法Prolog
+
+
+MPACC一道逻辑题求解.  
+正题:某地住着甲,乙两个部落,甲部落的人总是说真话,乙部落的人总是说假话.一天,某旅行者来到这里,遇见一个当地人,旅行者就问他:“你是哪个部落的?”A回答他是甲部落的；这时候又过来一个当地人,旅行者就请A去问B相同的问题,B回答后,A告诉旅行者,B回答他是甲部落的.根据以上情况,我们可以确定:A.A和B都是甲部落的.B.A和B都是乙部落的.C.A是甲部落的,B是乙部落的.D.A是甲部落的,不清楚B的情况.E.A和B的情况都无法确定.
+
+
+
+
+如果要用逻辑学方法解决,就要知道,本题共涉及到3组命题：  
+（1）X是甲部落还是乙部落；（等同于“X是说真话还是说假话”,所以用一个命题表示）  
+（2）当我们问X是哪个部落时,X回答自己是甲部落还是乙部落；  
+（3）当我们请X向Y问上述问题时,X转达Y说自己是甲部落还是乙部落；  
+　　因为上述3组命题的结果,不是甲部落就是乙部落,所以我们可以用一对矛盾命题表示.  
+我们用符号表示命题：  
+（1）P（X）：X是甲部落的；（也表示了X是说真话的）  
+（2）Q（X）：X回答他是甲部落的；  
+（3）R（X,Y）：X回答Y说自己是甲部落的；  
+　　根据上述命题的逻辑关系,可以得出以下结论：  
+①：P（X）→Q（X）；X是甲部落的,说真话,所以回答自己是甲部落的；  
+②：￢P（X）→Q（X）；X是乙部落的,说假话,所以也回答自己是甲部落的；  
+★①、②的一个直接结论就是：Q（X）恒为真；即：  
+　　　　对于这两个部落的人,不论你问谁,他都会说自己是甲部落的人；  
+　　所以,A的第一次回答“A回答他是甲部落的”对我们没有任何用处.不过我们可以推断：当旅行者请A向B问问题时,即使A没有回复,旅行者也知道B回答的是“我是甲部落的”.但至于A如何转述B的回答,就要看A是否诚实了.所以：  
+③：P（X）→R（X,Y）；  
+④：￢P（X）→￢R（X,Y）；  
+　　即：X的转述与Y无关,只和他自己是否诚实有关；  
+★利用③、④,我们可直接得出这样一个结论：P（X）↔R（X,Y）；即：  
+　　X转述Y的回答时所说的部落,与他自己“实际”所属的部落是相同的；  
+　　所以：当“A告诉旅行者,B回答他是甲部落的”时,我们就可以确定A就是甲部落的.而至于乙,我们就无法判断了.所以,答案是D.
+
+
+
+
+
+
 
 
 
@@ -394,11 +589,12 @@ Oracle Database Firewall的内核是Prolog写的。
 
 
 
+# prolog加载DLL
 
 
 
 
-
+https://jingyan.baidu.com/article/425e69e616ca70be14fc1655.html
 
 
 

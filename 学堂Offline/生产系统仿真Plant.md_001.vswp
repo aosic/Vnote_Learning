@@ -1,3 +1,4 @@
+vnote_backup_file_826537664 E:/my_Gitbook/学堂Offline/生产系统仿真Plant.md
 # 正确的学习方法是跑正确的例程
 
 我想用Plant可视化个数据结构算法
@@ -703,12 +704,6 @@ print  ReturnVal  //输出返回值，计算sin(π/6)，值为0.5
 print  “Unloading: “, freeLibrary(Handle)  //释放Dll文件
 
 end
-
- 
-
-
-extern "C" __declspec(dllexport)
-https://www.cnblogs.com/OleNet/p/3171460.html
 
 
 
