@@ -1,4 +1,6 @@
 
+# 教程
+
 
 https://blog.csdn.net/BalterNotz/article/details/62897481
 
@@ -20,6 +22,30 @@ https://blog.csdn.net/BalterNotz/article/details/62897481
 [https://www.objc.io/books/functional-swift/](https://www.objc.io/books/functional-swift/)
 
 https://blog.csdn.net/quicmous/article/details/84558070                 Haskell：初识 Maybe 和 Monad
+
+
+# Haskell程序证明
+
+https://zhiwei.li/text/2010/06/10/haskell程序推理/
+
+
+
+# Haskell步进解析调试文件
+
+https://codeday.me/bug/20170821/59985.html
+```
+runhaskell MyFile.hs  
+
+
+ghci MyFile.hs  命令行运行
+```
+
+
+
+
+
+
+
 
 
 

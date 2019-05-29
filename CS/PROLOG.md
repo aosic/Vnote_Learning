@@ -114,7 +114,7 @@ card(Is,Exprs)	cardinality constraint (see below)
 
 
 
-Interface predicates
+# Interface predicates
 The most frequently used CLP(B) predicates are:
 
 sat(+Expr)
@@ -126,7 +126,15 @@ Assigns truth values to the variables Vs such that all constraints are satisfied
 The unification of a CLP(B) variable X with a term T is equivalent to posting the constraint sat(X=:=T).
 
 
-
+接口谓词
+最常用的CLP(B)谓词是:
+坐(+ Expr)
+如果布尔表达式Expr是可满足的。
+拉紧(+ Expr - t)
+如果Expr是与发布的约束相关的同义反复，则T = 1成功。如果不能满足Expr，则成功执行T = 0。否则,它就会失败。
+标签(+ Vs)
+将真值赋给变量Vs，以便满足所有约束。
+CLP(B)变量X与项T的统一等价于发布约束sat(X=:=T)。
 
 
 
