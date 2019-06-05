@@ -1,0 +1,78 @@
+vnote_backup_file_826537664 E:/my_Gitbook/CS/latexmardownpdfWord转换打法.md
+
+  https://www.cnblogs.com/tsingke/p/6435226.html
+
+
+# Latex表格在线自动生成及word表格转Latex方法
+
+
+https://jingyan.baidu.com/article/da1091fb078691027849d6e8.html
+
+
+
+
+latex与word之间的各种转化方法
+
+
+
+
+https://blog.csdn.net/communix/article/details/49965233
+
+
+
+
+
+
+
+有时还是不得不把 LaTeX 写的文档转成 Word。一些可行的办法有：  
+1、先用 [TtH](http://hutchinson.belmont.ma.us/tth/) 或 [LaTeX2HTML](http://saftsack.fs.uni-bayreuth.de/~latex2ht/) 之类的工具把 LaTeX 转成 HTML，再把 HTML 转成Word。  
+2、先生成 PDF，再用 [PDF2Word](http://www.verypdf.com/pdf2word/index.html) 转成Word。  
+3、安装 [TeX2Word](http://www.tex2word.com/) ，用 Word 打开 LaTeX/TeX 文件，另存为 doc 文档。  
+4、用 [LaTeX2rtf](http://latex2rtf.sourceforge.net/) 转。  
+  
+前 面两种方法对公式支持不好，PDF2Word 会把图片转成位图；第四个是开源软件，没试过。效果最好的是 TeX2Word，可惜是商业软件。它可以把 TeX 公式转成 MathType 公式，但对图片支持似乎还是不好，需要重新插入。无论用哪种方法都不太可能保留 LaTeX 的排版。  
+  
+另外，从Word 转 LaTeX 也有 [Word2TeX](http://www.word2tex.com/) ，[word-to-latex](http://tug.ctan.org/tex-archive/support/word-to-latex/) ，后者是开源软件。
+
+不过Pandoc应该也适合，Bookdown是个很好的选择。[https://mp.weixin.qq.com/s/u8WfC4xQ562Uekhs4WVBoQ](https://mp.weixin.qq.com/s/u8WfC4xQ562Uekhs4WVBoQ)
+
+  
+参考：  
+[http://bbs.ctex.org/forums/index.php?showtopic=32810](http://bbs.ctex.org/forums/index.php?showtopic=32810)  
+[http://bbs.ctex.org/forums/index.php?showtopic=30979](http://bbs.ctex.org/forums/index.php?showtopic=30979)  
+[http://www.ispl.jp/~oosaki/research/linux-tips/eps2wmf/](http://www.ispl.jp/~oosaki/research/linux-tips/eps2wmf/)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
