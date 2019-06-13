@@ -1,4 +1,47 @@
 
+
+
+
+
+# 教程
+
+
+
+
+
+
+
+
+bin：容器，执行文件和启动参数等  
+help：快捷键文档和其他帮助文档  
+jre64：64位java运行环境  
+lib：idea依赖的类库  https://www.yiibai.com/scala/scala_environment_setup.html
+license：各个插件许可  
+plugin：插件
+https://blog.csdn.net/my_Freespace/article/details/89044215
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 https://zhuanlan.zhihu.com/p/65532249
 
 

@@ -141,6 +141,33 @@ Plant13软件安装根目录:.
 
 *.jt,*.s3d
 ## Examples学习笔记！！！！！！
+
+
+![](_v_images/1560131165_28930.png)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ![英文版HTML用Chrome打开](_v_images/英文版html用ch_1556851626_23537.png)
 翻译之后的结果：
 
@@ -325,7 +352,7 @@ end
 
 www.plantsim.top/simtalk-编程技巧和建议/
 
-### 善用debug
+## 善用debug
 
   
 
@@ -611,7 +638,7 @@ Nondeterministic Polynomial Complete Problem
 
 D:\Program Files\Siemens\Tecnomatix Plant Simulation 13
 
-### 利用高效语句
+## 利用高效语句
 
 正常的仿真运行对程序效率要求不高，但是当仿真时间较长，需要进行大规模实验的时候，运行效率的问题变得尤为重要。这里列举一些高效的语句供参考。
 
@@ -704,12 +731,6 @@ print  “Unloading: “, freeLibrary(Handle)  //释放Dll文件
 
 end
 
- 
-
-
-extern "C" __declspec(dllexport)
-https://www.cnblogs.com/OleNet/p/3171460.html
-
 
 
 
@@ -775,7 +796,7 @@ FlowControl VS Exit Strategy属性
 InterFace层次
 
 
-### GA
+## GA
 
   
 
@@ -1263,6 +1284,40 @@ https://www.zhihu.com/question/42209817/answer/284024279
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+#       C-interface
+
+
+```
+	ProjectType="Visual C++"
+	Version="9,00"
+	Name="cinterf"
+	ProjectGUID="{028CF851-1013-4C7C-AD8D-CE63612B8EF3}"
+	RootNamespace="cinterf"
+	TargetFrameworkVersion="131072"
+
+
+```
+解决方法一：由其sln的后缀可知  这个工程是用 VC++ .net 2003以上版本创建的，它的项目文件是.vcproj（相当于VC6的.dsp），解决方案文件是.sln（相当于VC6的.dsw） 所以需要2003以上的版本打开它，打开.vcproj或.sln都可以。 如何知道到底是哪个版本呢？
+
+用记事本打开.vcproj文件，看他的前几行有一行类似：
+   Version="9.00"
+   9.00是用VS2008创建的
+   8.00是用VS2005创建的
+   7.10是用VC++.net 2003创建的
+
+ 如果这个工程是用VC++ .net 2003创建的，那么有一个工具可以把它转为VC6的工程。 
+http://www.vckbase.com/tools/downtools.asp?id=164 （未试用）
 
 
 
