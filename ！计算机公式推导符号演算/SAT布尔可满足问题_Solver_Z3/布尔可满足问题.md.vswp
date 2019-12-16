@@ -1,0 +1,54 @@
+vnote_backup_file_826537664 C:/Users/admin/Documents/vnote_notebooks/！计算机公式推导符号演算/SAT布尔可满足问题_Solver_Z3/布尔可满足问题.md
+# 布尔可满足问题
+
+
+
+
+
+
+
+
+
+
+布尔可满足问题是第一个被证明的NP完全问题，Generating SAT Instances frome First-Order Formulas 2005
+
+任何NP非确定性多项式都可在多项式时间规约为SAT进行求解  ，特别是在电路设计，测试，形式化验证等领域
+
+
+
+
+
+
+
+
+
+
+CNF合取范式
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

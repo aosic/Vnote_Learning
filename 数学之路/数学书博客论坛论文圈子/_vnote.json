@@ -1,0 +1,778 @@
+{
+    "created_time": "2019-10-04T10:03:20Z",
+    "files": [
+        {
+            "attachment_folder": "",
+            "attachments": [
+            ],
+            "created_time": "2019-10-04T10:03:23Z",
+            "modified_time": "2019-10-04T10:25:33Z",
+            "name": "论文.md",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "attachments": [
+            ],
+            "created_time": "2019-10-04T10:17:36Z",
+            "modified_time": "2019-10-04T11:04:22Z",
+            "name": "论坛讨论书博客视频网站资源.md",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "attachments": [
+            ],
+            "created_time": "2019-10-04T10:19:34Z",
+            "modified_time": "2019-10-04T10:19:44Z",
+            "name": "前端.md",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "attachments": [
+            ],
+            "created_time": "2019-10-04T10:26:31Z",
+            "modified_time": "2019-10-04T10:31:47Z",
+            "name": "论文查重.md",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "attachments": [
+            ],
+            "created_time": "2019-10-04T10:27:53Z",
+            "modified_time": "2019-10-04T10:28:02Z",
+            "name": "CS最全论文争霸.md",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "attachments": [
+            ],
+            "created_time": "2019-10-21T00:26:21Z",
+            "modified_time": "2019-10-21T00:26:21Z",
+            "name": "（怀念曾博的勃学）矩阵的秩与行列式的几何意义.htm",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "attachments": [
+            ],
+            "created_time": "2019-10-21T00:26:21Z",
+            "modified_time": "2019-10-21T00:26:21Z",
+            "name": "_vnote_001.json",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "attachments": [
+            ],
+            "created_time": "2019-10-21T00:26:21Z",
+            "modified_time": "2019-10-21T00:26:21Z",
+            "name": "33=x^3+y^3+z^33.md",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "attachments": [
+            ],
+            "created_time": "2019-10-21T00:26:21Z",
+            "modified_time": "2019-10-21T00:26:21Z",
+            "name": "GTM52.md",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "attachments": [
+            ],
+            "created_time": "2019-10-21T00:26:21Z",
+            "modified_time": "2019-10-21T00:26:21Z",
+            "name": "GTM52.md.vswp",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "attachments": [
+            ],
+            "created_time": "2019-10-21T00:26:21Z",
+            "modified_time": "2019-10-21T00:26:21Z",
+            "name": "ODE,PDE.md",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "attachments": [
+            ],
+            "created_time": "2019-10-21T00:26:21Z",
+            "modified_time": "2019-10-21T00:26:21Z",
+            "name": "readme.txt",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "attachments": [
+            ],
+            "created_time": "2019-10-21T00:26:21Z",
+            "modified_time": "2019-10-21T00:26:21Z",
+            "name": "Type Theory还是Type System.md",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "attachments": [
+            ],
+            "created_time": "2019-10-21T00:26:21Z",
+            "modified_time": "2019-10-21T00:26:21Z",
+            "name": "一元高数.md",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "attachments": [
+            ],
+            "created_time": "2019-10-21T00:26:21Z",
+            "modified_time": "2019-10-21T00:26:21Z",
+            "name": "世界上有了“第一本能交互的线代书”：《沉浸式线性代数》(Immersive Linear Algebra) 。你可能从来都没见过这样好玩有趣的线代书！.md",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "attachments": [
+            ],
+            "created_time": "2019-10-21T00:26:21Z",
+            "modified_time": "2019-10-21T00:26:21Z",
+            "name": "世界上有了“第一本能交互的线代书”：《沉浸式线性代数》(Immersive Linear Algebra) 。你可能从来都没见过这样好玩有趣的线代书！.md.vswp",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "attachments": [
+            ],
+            "created_time": "2019-10-21T00:26:21Z",
+            "modified_time": "2019-10-21T00:26:21Z",
+            "name": "代数几何.md",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "attachments": [
+            ],
+            "created_time": "2019-10-21T00:26:21Z",
+            "modified_time": "2019-10-21T00:26:21Z",
+            "name": "作者数学.md",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "attachments": [
+            ],
+            "created_time": "2019-10-21T00:26:21Z",
+            "modified_time": "2019-10-21T00:26:21Z",
+            "name": "作者数学.md.vswp",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "attachments": [
+            ],
+            "created_time": "2019-10-21T00:26:21Z",
+            "modified_time": "2019-10-21T00:26:21Z",
+            "name": "元胞自动机.md",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "attachments": [
+            ],
+            "created_time": "2019-10-21T00:26:21Z",
+            "modified_time": "2019-10-21T00:26:21Z",
+            "name": "共鸣！.md",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "attachments": [
+            ],
+            "created_time": "2019-10-21T00:26:21Z",
+            "modified_time": "2019-10-21T00:26:21Z",
+            "name": "共鸣！.md.vswp",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "attachments": [
+            ],
+            "created_time": "2019-10-21T00:26:21Z",
+            "modified_time": "2019-10-21T00:26:21Z",
+            "name": "四元数.md",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "attachments": [
+            ],
+            "created_time": "2019-10-21T00:26:21Z",
+            "modified_time": "2019-10-21T00:26:21Z",
+            "name": "复分析.md",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "attachments": [
+            ],
+            "created_time": "2019-10-21T00:26:21Z",
+            "modified_time": "2019-10-21T00:26:21Z",
+            "name": "复变函数.md",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "attachments": [
+            ],
+            "created_time": "2019-10-21T00:26:21Z",
+            "modified_time": "2019-10-21T00:26:21Z",
+            "name": "多元高数.md",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "attachments": [
+            ],
+            "created_time": "2019-10-21T00:26:21Z",
+            "modified_time": "2019-10-21T00:26:21Z",
+            "name": "大大的数学笔记.md",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "attachments": [
+            ],
+            "created_time": "2019-10-21T00:26:21Z",
+            "modified_time": "2019-10-21T00:26:21Z",
+            "name": "实分析.md",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "attachments": [
+            ],
+            "created_time": "2019-10-21T00:26:21Z",
+            "modified_time": "2019-10-21T00:26:21Z",
+            "name": "实变函数.md",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "attachments": [
+            ],
+            "created_time": "2019-10-21T00:26:21Z",
+            "modified_time": "2019-10-21T00:26:21Z",
+            "name": "形式推理数理逻辑：语法语义自动机.md",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "attachments": [
+            ],
+            "created_time": "2019-10-21T00:26:21Z",
+            "modified_time": "2019-10-21T00:26:21Z",
+            "name": "微分几何.md",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "attachments": [
+            ],
+            "created_time": "2019-10-21T00:26:21Z",
+            "modified_time": "2019-10-21T00:26:21Z",
+            "name": "我眼中的线性代数.md",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "attachments": [
+            ],
+            "created_time": "2019-10-21T00:26:21Z",
+            "modified_time": "2019-10-21T00:26:21Z",
+            "name": "抽象解释（abstract interpretation）.md",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "attachments": [
+            ],
+            "created_time": "2019-10-21T00:26:21Z",
+            "modified_time": "2019-10-21T00:26:21Z",
+            "name": "拓扑.md",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "attachments": [
+            ],
+            "created_time": "2019-10-21T00:26:21Z",
+            "modified_time": "2019-10-21T00:26:21Z",
+            "name": "数值积分.md",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "attachments": [
+            ],
+            "created_time": "2019-10-21T00:26:21Z",
+            "modified_time": "2019-10-21T00:26:21Z",
+            "name": "数学推广贴广告马同学.txt",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "attachments": [
+            ],
+            "created_time": "2019-10-21T00:26:21Z",
+            "modified_time": "2019-10-21T00:26:21Z",
+            "name": "数学的皇后.md",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "attachments": [
+            ],
+            "created_time": "2019-10-21T00:26:21Z",
+            "modified_time": "2019-10-21T00:26:21Z",
+            "name": "数理逻辑.md",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "attachments": [
+            ],
+            "created_time": "2019-10-21T00:26:21Z",
+            "modified_time": "2019-10-21T00:26:21Z",
+            "name": "文艺数学君.md",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "attachments": [
+            ],
+            "created_time": "2019-10-21T00:26:21Z",
+            "modified_time": "2019-10-21T00:26:21Z",
+            "name": "有限元.md",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "attachments": [
+            ],
+            "created_time": "2019-10-21T00:26:21Z",
+            "modified_time": "2019-10-21T00:26:21Z",
+            "name": "模糊数学.md",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "attachments": [
+            ],
+            "created_time": "2019-10-21T00:26:22Z",
+            "modified_time": "2019-10-21T00:26:22Z",
+            "name": "泛函变分张量代数.md",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "attachments": [
+            ],
+            "created_time": "2019-10-21T00:26:22Z",
+            "modified_time": "2019-10-21T00:26:22Z",
+            "name": "测度.md",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "attachments": [
+            ],
+            "created_time": "2019-10-21T00:26:22Z",
+            "modified_time": "2019-10-21T00:26:22Z",
+            "name": "漫谈高数系列.md",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "attachments": [
+            ],
+            "created_time": "2019-10-21T00:26:22Z",
+            "modified_time": "2019-10-21T00:26:22Z",
+            "name": "牛逼讲义.md",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "attachments": [
+            ],
+            "created_time": "2019-10-21T00:26:22Z",
+            "modified_time": "2019-10-21T00:26:22Z",
+            "name": "王后.md",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "attachments": [
+            ],
+            "created_time": "2019-10-21T00:26:22Z",
+            "modified_time": "2019-10-21T00:26:22Z",
+            "name": "理论计算机科学的核心问题P类问题，NP类问题，NP难问题，NPC问题.md",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "attachments": [
+            ],
+            "created_time": "2019-10-21T00:26:22Z",
+            "modified_time": "2019-10-21T00:26:22Z",
+            "name": "真正做学问的人都在干什么.md",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "attachments": [
+            ],
+            "created_time": "2019-10-21T00:26:22Z",
+            "modified_time": "2019-10-21T00:26:22Z",
+            "name": "矢量分析张量分析场论基础.md",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "attachments": [
+            ],
+            "created_time": "2019-10-21T00:26:22Z",
+            "modified_time": "2019-10-21T00:26:22Z",
+            "name": "矩阵再理解.md",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "attachments": [
+            ],
+            "created_time": "2019-10-21T00:26:22Z",
+            "modified_time": "2019-10-21T00:26:22Z",
+            "name": "研究世界运作的规律.md",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "attachments": [
+            ],
+            "created_time": "2019-10-21T00:26:22Z",
+            "modified_time": "2019-10-21T00:26:22Z",
+            "name": "离散数学.md",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "attachments": [
+            ],
+            "created_time": "2019-10-21T00:26:22Z",
+            "modified_time": "2019-10-21T00:26:22Z",
+            "name": "程序分析程序验证.md",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "attachments": [
+            ],
+            "created_time": "2019-10-21T00:26:22Z",
+            "modified_time": "2019-10-21T00:26:22Z",
+            "name": "组合数学.md",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "attachments": [
+            ],
+            "created_time": "2019-10-21T00:26:22Z",
+            "modified_time": "2019-10-21T00:26:22Z",
+            "name": "组合数学差分集.md",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "attachments": [
+            ],
+            "created_time": "2019-10-21T00:26:22Z",
+            "modified_time": "2019-10-21T00:26:22Z",
+            "name": "组合数学差分集.md.vswp",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "attachments": [
+            ],
+            "created_time": "2019-10-21T00:26:22Z",
+            "modified_time": "2019-10-21T00:26:22Z",
+            "name": "统计.md",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "attachments": [
+            ],
+            "created_time": "2019-10-21T00:26:22Z",
+            "modified_time": "2019-10-21T00:26:22Z",
+            "name": "美妙的数学.md",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "attachments": [
+            ],
+            "created_time": "2019-10-21T00:26:22Z",
+            "modified_time": "2019-10-21T00:26:22Z",
+            "name": "自动机模型.md",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "attachments": [
+            ],
+            "created_time": "2019-10-21T00:26:22Z",
+            "modified_time": "2019-10-21T00:26:22Z",
+            "name": "范畴.md",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "attachments": [
+            ],
+            "created_time": "2019-10-21T00:26:22Z",
+            "modified_time": "2019-10-21T00:26:22Z",
+            "name": "解析几何代数几何.md",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "attachments": [
+            ],
+            "created_time": "2019-10-21T00:26:22Z",
+            "modified_time": "2019-10-21T00:26:22Z",
+            "name": "计算书逻辑模型.md",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "attachments": [
+            ],
+            "created_time": "2019-10-21T00:26:22Z",
+            "modified_time": "2019-10-21T00:26:22Z",
+            "name": "计算几何邓俊辉.md",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "attachments": [
+            ],
+            "created_time": "2019-10-21T00:26:22Z",
+            "modified_time": "2019-10-21T00:26:22Z",
+            "name": "计算几何邓俊辉.md.vswp",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "attachments": [
+            ],
+            "created_time": "2019-10-21T00:26:22Z",
+            "modified_time": "2019-10-21T00:26:22Z",
+            "name": "计算方法.md",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "attachments": [
+            ],
+            "created_time": "2019-10-21T00:26:22Z",
+            "modified_time": "2019-10-21T00:26:22Z",
+            "name": "计算逻辑演化复杂度.md",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "attachments": [
+            ],
+            "created_time": "2019-10-21T00:26:22Z",
+            "modified_time": "2019-10-21T00:26:22Z",
+            "name": "近世代数.md",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "attachments": [
+            ],
+            "created_time": "2019-10-21T00:26:22Z",
+            "modified_time": "2019-10-21T00:26:22Z",
+            "name": "逻辑推理形式推理符号演算自动机.md",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "attachments": [
+            ],
+            "created_time": "2019-10-21T00:26:22Z",
+            "modified_time": "2019-10-21T00:26:22Z",
+            "name": "量子计算.md",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "attachments": [
+            ],
+            "created_time": "2019-10-21T00:26:22Z",
+            "modified_time": "2019-10-21T00:26:22Z",
+            "name": "高等数学.vsdx",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "attachments": [
+            ],
+            "created_time": "2019-10-21T00:26:22Z",
+            "modified_time": "2019-10-21T00:26:22Z",
+            "name": "黎曼曲面.md",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "attachments": [
+            ],
+            "created_time": "2019-11-26T06:49:50Z",
+            "modified_time": "2019-11-26T07:11:04Z",
+            "name": "STACKEXCHANCE.md",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "attachments": [
+            ],
+            "created_time": "2019-11-26T06:55:11Z",
+            "modified_time": "2019-11-26T06:59:00Z",
+            "name": "planetMath.md",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "attachments": [
+            ],
+            "created_time": "2019-11-26T07:08:40Z",
+            "modified_time": "2019-11-26T07:11:54Z",
+            "name": "MathWorld.md",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "attachments": [
+            ],
+            "created_time": "2019-11-26T07:12:11Z",
+            "modified_time": "2019-11-26T07:48:07Z",
+            "name": "数学网站.md",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "attachments": [
+            ],
+            "created_time": "2019-11-26T07:30:17Z",
+            "modified_time": "2019-11-26T07:30:24Z",
+            "name": "现代代数.md",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "attachments": [
+            ],
+            "created_time": "2019-11-26T12:09:00Z",
+            "modified_time": "2019-11-26T12:10:13Z",
+            "name": "FriCAS.md",
+            "tags": [
+            ]
+        }
+    ],
+    "sub_directories": [
+    ],
+    "version": "1"
+}

@@ -1,0 +1,112 @@
+
+# # Mathpix Snipping Tool + Typora + Pandoc 快速将其他论文中的公式图片转化成Word可编辑格式
+
+
+
+
+
+https://blog.csdn.net/ZJU_QZH/article/details/86476568
+
+
+# 默认手写版软件
+Math Input panel
+
+
+
+
+
+
+
+# 公式神器 Mathpix Snip
+
+
+
+推荐一个公式输入神器，只要截图就能识别公式，手写的公式都能识别。经过实测，几乎没有识别不出的公式，并可以输入到word、markdown、latex文件。
+
+Mathpix Snip 这款神器只要截个图，公式会自动转化为 LaTex 表达式，我们只需要简单地修改就行了。
+
+安装软件
+下载Mathpix Snip：
+https://download.csdn.net/download/qq_34243930/11100603
+or
+https://mathpix.com/
+
+安装就按照默认选项点击下一步即可。
+
+对公式截图和生成latex代码
+启动软件后，按快捷键：
+
+CTRL+ALT+M
+1
+即可开始截图，甚至手写的都可以识别，对公式截图后，软件能自动识别并生成latex代码。
+
+1、用给的电子文档进行测试：
+https://mathpix.com/examples.pdf
+
+
+按快捷键框出想要的公式：
+
+CTRL+ALT+M
+1
+
+
+
+2、手写公式识别：
+
+
+
+插入公式到文档
+1、插入到word
+第一步，需要安装mathtype插件（教程：https://blog.csdn.net/qq_34243930/article/details/89160105 ）。
+
+第二步，从Mathpix Snip复制公式（复制第二行代码，即$代码$，点copy即可），光标点到输入公式的地方，直接粘贴，这个时候，word里面显示的还是tex代码（即$代码$）。
+
+
+第三步，直接使用mathtype的转换快捷键：
+
+ALT+\
+1
+即可将tex代码转换为公式。
+
+
+2、插入到markdown
+打开typora（最好用的 Markdown 编辑器 Typora见博客：https://blog.csdn.net/qq_34243930/article/details/89159341 ），从Mathpix Snip复制公式（复制第三行代码，$$代码$$，点copy即可，如果单行公式，也可以复制$代码$），光标点到输入公式的地方，直接粘贴即可。效果如图：
+
+
+3、插入到Latex
+从Mathpix Snip复制公式（复制第二行代码，即$代码$，点copy即可），光标点到输入公式的地方，直接粘贴。
+--------------------- 
+作者：夏普通 
+来源：CSDN 
+原文：https://blog.csdn.net/qq_34243930/article/details/89158366 
+版权声明：本文为博主原创文章，转载请附上博文链接！
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,617 @@
+haskell动画引擎reanimation
+
+https://wiki.haskell.org/Cabal-Install
+沙盒外部安装包检测ghc-pkg list
+
+沙盒内壁安装包检测
+cabal sandbox hc-pkg list
+
+cabal exec cabal  install foo
+
+# .cabal文件
+
+```
+
+CABal instal失败
+Starting     network-3.0.1.1
+Building     mtl-compat-0.2.2
+Failed to install network-3.0.1.1
+Build log ( C:\Users\admin\AppData\Roaming\cabal\logs\ghc-8.6.3\network-3.0.1.1-CHSR3XrToff3SltVAZnyeN.log ):
+Configuring network-3.0.1.1...
+cabal.exe: The package has a './configure' script. If you are on Windows, This
+requires a Unix compatibility toolchain such as MinGW+MSYS or Cygwin. If you
+are not on Windows, ensure that an 'sh' command is discoverable in your path.
+cabal: Leaving directory 'C:\Users\admin\AppData\Local\Temp\cabal-tmp-3603\network-3.0.1.1'
+Starting
+
+
+
+cabal.exe: Error: some packages failed to install:
+network-3.0.1.1-CHSR3XrToff3SltVAZnyeN failed during the configure step. The
+exception was:
+ExitFailure 1
+reanimate-0.1.5.0-3BkBgGCEAI7Av9ILAyEBJv depends on reanimate-0.1.5.0 which
+failed to install.
+streaming-commons-0.2.1.1-CKR9gTGD2KSK0M4eqrPZUC depends on
+streaming-commons-0.2.1.1 which failed to install.
+websockets-0.12.5.3-H1hnWZ713HeINbiStIRqbY depends on websockets-0.12.5.3
+which failed to install.
+
+PS C:\Users\admin\Desktop\!hush\flourierDraw_jpeg_svg\reanimation\reanimate-master> cabal v1-install network
+Resolving dependencies...
+Starting     network-3.1.0.1
+Failed to install network-3.1.0.1
+Build log ( C:\Users\admin\AppData\Roaming\cabal\logs\ghc-8.6.3\network-3.1.0.1-3hHBpw17wpa9MleAlG8j6i.log ):
+Configuring network-3.1.0.1...
+cabal.exe: The package has a './configure' script. If you are on Windows, This
+requires a Unix compatibility toolchain such as MinGW+MSYS or Cygwin. If you
+are not on Windows, ensure that an 'sh' command is discoverable in your path.
+cabal: Leaving directory 'C:\Users\admin\AppData\Local\Temp\cabal-tmp-5916\network-3.1.0.1'
+cabal.exe: Error: some packages failed to install:
+network-3.1.0.1-3hHBpw17wpa9MleAlG8j6i failed during the configure step. The
+exception was:
+ExitFailure 1
+
+
+```
+
+
+```
+$ cabal build
+Warning: The build command is a part of the legacy v1 style of cabal usage.
+
+Please switch to using either the new project style and the new-build command
+or the legacy v1-build alias as new-style projects will become the default in
+the next version of cabal-install. Please file a bug if you cannot replicate a
+working v1- use case with the new-style commands.
+
+For more information, see: https://wiki.haskell.org/Cabal/NewBuild
+
+Resolving dependencies...
+Configuring reanimate-0.1.5.0...
+Preprocessing library for reanimate-0.1.5.0..
+Building library for reanimate-0.1.5.0..
+[ 1 of 17] Compiling Paths_reanimate  ( dist\build\autogen\Paths_reanimate.hs, dist\build\Paths_reanimate.o )
+[ 2 of 17] Compiling Reanimate.ColorMap ( src\Reanimate\ColorMap.hs, dist\build\Reanimate\ColorMap.o )
+[ 3 of 17] Compiling Reanimate.Combinators ( src\Reanimate\Combinators.hs, dist\build\Reanimate\Combinators.o )
+[ 4 of 17] Compiling Reanimate.Misc   ( src\Reanimate\Misc.hs, dist\build\Reanimate\Misc.o )
+[ 5 of 17] Compiling Reanimate.Raster ( src\Reanimate\Raster.hs, dist\build\Reanimate\Raster.o )
+[ 6 of 17] Compiling Reanimate.Signal ( src\Reanimate\Signal.hs, dist\build\Reanimate\Signal.o )
+[ 7 of 17] Compiling Reanimate.Svg.NamedColors ( src\Reanimate\Svg\NamedColors.hs, dist\build\Reanimate\Svg\NamedColors.o )
+[ 8 of 17] Compiling Reanimate.Transform ( src\Reanimate\Transform.hs, dist\build\Reanimate\Transform.o )
+[ 9 of 17] Compiling Reanimate.Svg    ( src\Reanimate\Svg.hs, dist\build\Reanimate\Svg.o )
+[10 of 17] Compiling Reanimate.Monad  ( src\Reanimate\Monad.hs, dist\build\Reanimate\Monad.o )
+[11 of 17] Compiling Reanimate.Diagrams ( src\Reanimate\Diagrams.hs, dist\build\Reanimate\Diagrams.o )
+[12 of 17] Compiling Reanimate.Render ( src\Reanimate\Render.hs, dist\build\Reanimate\Render.o )
+[13 of 17] Compiling Reanimate.Driver ( src\Reanimate\Driver.hs, dist\build\Reanimate\Driver.o )
+[14 of 17] Compiling Reanimate.Cache  ( src\Reanimate\Cache.hs, dist\build\Reanimate\Cache.o )
+[15 of 17] Compiling Reanimate.LaTeX  ( src\Reanimate\LaTeX.hs, dist\build\Reanimate\LaTeX.o )
+[16 of 17] Compiling Reanimate.Morph  ( src\Reanimate\Morph.hs, dist\build\Reanimate\Morph.o )
+[17 of 17] Compiling Reanimate.Examples ( src\Reanimate\Examples.hs, dist\build\Reanimate\Examples.o )
+
+
+
+
+
+
+
+
+
+
+
+
+
+```
+
+
+
+
+
+
+
+
+
+https://www.haskell.org/cabal/users-guide/developing-packages.html
+
+```haskell
+
+
+>runhaskell Setup configure
+Configuring reanimate-0.1.5.0...
+Setup: Encountered missing dependencies:
+JuicyPixels -any,
+attoparsec -any,
+base64-bytestring -any,
+colour -any,
+cubicbezier -any,
+diagrams -any,
+diagrams-contrib -any,
+diagrams-core -any,
+diagrams-lib -any,
+diagrams-svg -any,
+fsnotify -any,
+hashable -any,
+lens -any,
+linear -any,
+matrices -any,
+matrix -any,
+open-browser -any,
+palette -any,
+parallel -any,
+random-shuffle -any,
+reanimate-svg >=0.7.0.0,
+svg-builder -any,
+vector -any,
+websockets -any,
+xml -any
+
+
+
+
+```
+
+## 教程视频引擎
+
+Haskell源码 https://github.com/Lemmih/reanimate/blob/master/examples/fourier_draw.hs
+
+https://www.reddit.com/r/haskell/comments/ca2frt/fourier\_series\_pi\_3blue1brown\_style_animation/ haskell
+
+```bash
+
+C:\Users\admin\Desktop\!hush\flourierDraw_jpeg_svg\reanimation\reanimate-master>cabal v1-build
+Resolving dependencies...
+Warning: solver failed to find a solution:
+Could not resolve dependencies:
+[__0] trying: reanimate-0.1.5.0 (user goal)
+[__1] unknown package: xml (dependency of reanimate)
+[__1] fail (backjumping, conflict set: reanimate, xml)
+After searching the rest of the dependency tree exhaustively, these were the
+goals I've had most trouble fulfilling: reanimate, xml
+Trying configure anyway.
+Configuring reanimate-0.1.5.0...
+cabal: Encountered missing dependencies:
+attoparsec -any,
+base64-bytestring -any,
+colour -any,
+cubicbezier -any,
+diagrams -any,
+diagrams-contrib -any,
+diagrams-core -any,
+diagrams-lib -any,
+diagrams-svg -any,
+fsnotify -any,
+hashable -any,
+lens -any,
+linear -any,
+matrices -any,
+matrix -any,
+open-browser -any,
+palette -any,
+parallel -any,
+random-shuffle -any,
+reanimate-svg >=0.7.0.0,
+svg-builder -any,
+websockets -any,
+xml -any
+
+
+
+
+```
+
+https://segmentfault.com/a/1190000000438286#articleHeader2
+
+cabal教程
+
+https://momoka.net/posts/2015/2015-0001-haskell-ghc-and-cabal-up-and-running.html
+
+文档
+
+https://wiki.haskell.org/Cabal-Install#Windows
+
+https://segmentfault.com/a/1190000000438286#articleHeader2
+
+
+```bash
+
+
+cabal v1-update
+
+
+
+\.cabal-sandbox
+Downloading  Boolean-0.2.4
+Downloading  NumInstances-1.4
+Starting     StateVar-1.2
+Downloaded   NumInstances-1.4
+Downloading  SHA-1.6.4.4
+Downloaded   Boolean-0.2.4
+Starting     Boolean-0.2.4
+Starting     NumInstances-1.4
+Building     StateVar-1.2
+Building     Boolean-0.2.4
+Building     NumInstances-1.4
+Downloaded   SHA-1.6.4.4
+Starting     SHA-1.6.4.4
+Completed    StateVar-1.2
+Downloading  base-orphans-0.8.1
+Downloaded   base-orphans-0.8.1
+Starting     base-orphans-0.8.1
+Completed    Boolean-0.2.4
+Starting     base64-bytestring-1.0.0.2
+Building     SHA-1.6.4.4
+Completed    NumInstances-1.4
+Downloading  blaze-builder-0.4.1.0
+Building     base-orphans-0.8.1
+Downloaded   blaze-builder-0.4.1.0
+Building     base64-bytestring-1.0.0.2
+Starting     blaze-builder-0.4.1.0
+Completed    base-orphans-0.8.1
+Downloading  bytestring-builder-0.10.8.2.0
+Building     blaze-builder-0.4.1.0
+Downloaded   bytestring-builder-0.10.8.2.0
+Starting     bytestring-builder-0.10.8.2.0
+Completed    base64-bytestring-1.0.0.2
+Downloading  cabal-doctest-1.0.6
+Downloaded   cabal-doctest-1.0.6
+Starting     cabal-doctest-1.0.6
+Building     bytestring-builder-0.10.8.2.0
+Building     cabal-doctest-1.0.6
+Completed    bytestring-builder-0.10.8.2.0
+Downloading  call-stack-0.2.0
+Downloaded   call-stack-0.2.0
+Starting     call-stack-0.2.0
+Completed    blaze-builder-0.4.1.0
+Downloading  cereal-0.5.8.1
+Building     call-stack-0.2.0
+Downloaded   cereal-0.5.8.1
+Starting     cereal-0.5.8.1
+Completed    cabal-doctest-1.0.6
+Downloading  circle-packing-0.1.0.6
+Completed    call-stack-0.2.0
+Downloading  colour-2.3.5
+Building     cereal-0.5.8.1
+Downloaded   circle-packing-0.1.0.6
+Starting     circle-packing-0.1.0.6
+Downloaded   colour-2.3.5
+Starting     colour-2.3.5
+Building     circle-packing-0.1.0.6
+Building     colour-2.3.5
+Completed    circle-packing-0.1.0.6
+Downloading  data-default-class-0.1.2.0
+Downloaded   data-default-class-0.1.2.0
+Starting     data-default-class-0.1.2.0
+Completed    SHA-1.6.4.4
+Downloading  diagrams-solve-0.1.1
+Building     data-default-class-0.1.2.0
+Downloaded   diagrams-solve-0.1.1
+Starting     diagrams-solve-0.1.1
+Completed    data-default-class-0.1.2.0
+Downloading  dlist-0.8.0.7
+Downloaded   dlist-0.8.0.7
+Starting     dlist-0.8.0.7
+Completed    colour-2.3.5
+Downloading  entropy-0.4.1.4
+Downloaded   entropy-0.4.1.4
+Starting     entropy-0.4.1.4
+Building     diagrams-solve-0.1.1
+Completed    cereal-0.5.8.1
+Downloading  fast-math-1.0.2
+Building     dlist-0.8.0.7
+Downloaded   fast-math-1.0.2
+Starting     fast-math-1.0.2
+Completed    dlist-0.8.0.7
+Downloading  fingertree-0.1.4.2
+Building     fast-math-1.0.2
+Completed    diagrams-solve-0.1.1
+Downloading  groups-0.4.1.0
+Downloaded   fingertree-0.1.4.2
+Starting     fingertree-0.1.4.2
+Downloaded   groups-0.4.1.0
+Starting     groups-0.4.1.0
+Completed    fast-math-1.0.2
+Downloading  hashable-1.2.7.0
+Downloaded   hashable-1.2.7.0
+Starting     hashable-1.2.7.0
+Building     fingertree-0.1.4.2
+Building     groups-0.4.1.0
+Building     hashable-1.2.7.0
+Completed    groups-0.4.1.0
+Downloading  integer-logarithms-1.0.3
+Downloaded   integer-logarithms-1.0.3
+Starting     integer-logarithms-1.0.3
+Building     entropy-0.4.1.4
+Building     integer-logarithms-1.0.3
+Completed    hashable-1.2.7.0
+Downloading  loop-0.3.0
+Downloaded   loop-0.3.0
+Completed    entropy-0.4.1.4
+Downloading  microlens-0.4.11.2
+Starting     loop-0.3.0
+Downloaded   microlens-0.4.11.2
+Starting     microlens-0.4.11.2
+Completed    fingertree-0.1.4.2
+Starting     mintty-0.1.2
+Completed    integer-logarithms-1.0.3
+Downloading  mtl-compat-0.2.2
+Building     loop-0.3.0
+Downloaded   mtl-compat-0.2.2
+Starting     mtl-compat-0.2.2
+Building     microlens-0.4.11.2
+Building     mintty-0.1.2
+Completed    loop-0.3.0
+Downloading  network-3.0.1.1
+Downloaded   network-3.0.1.1
+Building     mtl-compat-0.2.2
+Starting     network-3.0.1.1
+Completed    mintty-0.1.2
+Downloading  newtype-generics-0.5.3
+Downloaded   newtype-generics-0.5.3
+Starting     newtype-generics-0.5.3
+Completed    mtl-compat-0.2.2
+Downloading  old-locale-1.0.0.7
+Downloaded   old-locale-1.0.0.7
+Starting     old-locale-1.0.0.7
+Completed    microlens-0.4.11.2
+Downloading  open-browser-0.2.1.0
+Failed to install network-3.0.1.1
+Build log ( C:\Users\admin\Desktop\!hush\flourierDraw_jpeg_svg\reanimation\reanimate-master\.cabal-sandbox\logs\ghc-8.6.3\network-3.0.1.1-CHSR3XrToff3SltVAZnyeN.log ):
+Configuring network-3.0.1.1...
+cabal.exe: The package has a './configure' script. If you are on Windows, This
+requires a Unix compatibility toolchain such as MinGW+MSYS or Cygwin. If you
+are not on Windows, ensure that an 'sh' command is discoverable in your path.
+cabal: Leaving directory 'C:\Users\admin\AppData\Local\Temp\cabal-tmp-11665\network-3.0.1.1'
+Downloading  parallel-3.2.2.0
+Downloaded   open-browser-0.2.1.0
+Starting     open-browser-0.2.1.0
+Downloaded   parallel-3.2.2.0
+Starting     parallel-3.2.2.0
+Building     newtype-generics-0.5.3
+Building     old-locale-1.0.0.7
+Completed    newtype-generics-0.5.3
+Building     open-browser-0.2.1.0
+Building     parallel-3.2.2.0
+Completed    old-locale-1.0.0.7
+Completed    parallel-3.2.2.0
+Completed    open-browser-0.2.1.0
+cabal: Error: some packages failed to install:
+network-3.0.1.1-CHSR3XrToff3SltVAZnyeN failed during the configure step. The
+exception was:
+ExitFailure 1
+reanimate-0.1.5.0-KpSP8fIU8qADqdbItsvx3 depends on reanimate-0.1.5.0 which
+failed to install.
+streaming-commons-0.2.1.1-IkIhaXDkRrLLKCZb0pTKXF depends on
+streaming-commons-0.2.1.1 which failed to install.
+websockets-0.12.5.3-9DTHXIjNzSoG5emToGOyaQ depends on websockets-0.12.5.3
+which failed to install.
+
+
+
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+cabal: Error: some packages failed to install:
+network-3.0.1.1-CHSR3XrToff3SltVAZnyeN failed during the configure step. The
+exception was:
+ExitFailure 1
+reanimate-0.1.5.0-KpSP8fIU8qADqdbItsvx3 depends on reanimate-0.1.5.0 which
+failed to install.
+streaming-commons-0.2.1.1-IkIhaXDkRrLLKCZb0pTKXF depends on
+streaming-commons-0.2.1.1 which failed to install.
+websockets-0.12.5.3-9DTHXIjNzSoG5emToGOyaQ depends on websockets-0.12.5.3
+which failed to install.
+ 
+
+这些安装失败的包怎么办？
+
+
+
+
+
+# cabal文件编辑
+
+
+https://stackoverflow.com/questions/34128474/ghc-cannot-find-module-in-cabal-sandbox
+
+
+
+
+
+
+
+
+
+
+
+
+
+## sources
+1 Haskell简介及各种安装方法：http://blog.csdn.net/albert_lee/article/details/5469933
+
+2 Haskell wiki:http://www.haskell.org/haskellwiki/Haskell
+
+3 Haskell　中文社区:http://www.haskellcn.org/
+
+
+-   [CS240h: Functional Systems in Haskell](http://www.scs.stanford.edu/11au-cs240h/) 是斯坦福大学由 [David Mazières](http://www.scs.stanford.edu/~dm/) 和 [Bryan O'Sullivan](http://www.serpentine.com/)教授的haskell课。
+-   [Real World Haskell](http://book.realworldhaskell.org/)
+-   [Learn You a Haskell](http://learnyouahaskell.com/)
+-   [haskell.org](http://www.haskell.org/) 是一个很好的入口，你可以找到这里提到的任何链接，还有更多这里没提到的。最好花点时间浏览一下这个wiki。
+-   [H-99](http://www.haskell.org/haskellwiki/H-99:_Ninety-Nine_Haskell_Problems) 有一些关于haskell的题， 很像Euler project。看完LYAH后很容易就能解决它们。
+-   [Typeclassopedia](http://www.haskell.org/haskellwiki/Typeclassopedia) 这里是一个学习重要的haskell typeclass的好地方。
+-   [Hoogle](http://www.haskell.org/hoogle/) 是一个支持实用类型签名搜索的Haskell API搜索引擎。
+-   [Hayoo!](http://holumbus.fh-wedel.de/hayoo/hayoo.html)是另一个Haskell API搜索引擎，如果你有在Hoogle找不到的东西，来这里看看。
+-   [HWN](http://www.haskell.org/haskellwiki/HWN) 是一个Haskell周刊，它会提到邮件列表，stackoverflow，reddit等地方的重要事件。
+-   [Haskell :: Reddit](http://www.reddit.com/r/haskell/) Haskell的subreddit
+-   [stackoverflow - haskell](http://stackoverflow.com/questions/tagged/haskell) stackoverflow上面的关于Haskell的问题是很值得一看的。
+-   [C9 Lectures: FP Fundamentals](http://channel9.msdn.com/Series/C9-Lectures-Erik-Meijer-Functional-Programming-Fundamentals/Lecture-Series-Erik-Meijer-Functional-Programming-Fundamentals-Chapter-1) Dr. Erik Meijer写的十三篇关于函数式编程（Haskell）的论文。
+
+
+
+
+
+
+## compling
+
+>cabal exec -- ghc C:\Users\admin\Desktop\!hush\flourierDraw_jpeg_svg\reanimation\reanimate-master\examples\latex_color.hs
+Warning: The exec command is a part of the legacy v1 style of cabal usage.
+
+Please switch to using either the new project style and the new-exec command
+or the legacy v1-exec alias as new-style projects will become the default in
+the next version of cabal-install. Please file a bug if you cannot replicate a
+working v1- use case with the new-style commands.
+
+For more information, see: https://wiki.haskell.org/Cabal/NewBuild
+
+[1 of 1] Compiling Main             ( C:\Users\admin\Desktop\!hush\flourierDraw_jpeg_svg\reanimation\reanimate-master\examples\latex_color.hs, C:\Users\admin\Desktop\!hush\flourierDraw_jpeg_svg\reanimation\reanimate-master\examples\latex_color.o )
+Linking C:\Users\admin\Desktop\!hush\flourierDraw_jpeg_svg\reanimation\reanimate-master\examples\latex_color.exe ...
+
+
+
+
+## bug
+
+
+
+
+C:\Users\admin\Desktop\!hush\flourierDraw_jpeg_svg\reanimation\reanimate-master>cabal v1-exec -- ghc C:\Users\admin\Desktop\!hush\flourierDraw_jpeg_svg\reanimation\reanimate-master\examples\flourier.hs
+
+<no location info>: error:
+    can't find file: C:\Users\admin\Desktop\!hush\flourierDraw_jpeg_svg\reanimation\reanimate-master\examples\flourier.hs
+
+C:\Users\admin\Desktop\!hush\flourierDraw_jpeg_svg\reanimation\reanimate-master>cabal v1-exec -- ghc C:\Users\admin\Desktop\!hush\flourierDraw_jpeg_svg\reanimation\reanimate-master\examples\fourier.hs
+[1 of 1] Compiling Main             ( C:\Users\admin\Desktop\!hush\flourierDraw_jpeg_svg\reanimation\reanimate-master\examples\fourier.hs, C:\Users\admin\Desktop\!hush\flourierDraw_jpeg_svg\reanimation\reanimate-master\examples\fourier.o )
+
+C:\Users\admin\Desktop\!hush\flourierDraw_jpeg_svg\reanimation\reanimate-master\examples\fourier.hs:36:12: error:
+    ? Variable not in scope:
+        signal :: Integer -> Double -> Frame Double
+    ? Perhaps you meant ‘signum’ (imported from Prelude)
+   |
+36 |     phi <- signal 0 (2*pi)
+   |            ^^^^^^
+
+C:\Users\admin\Desktop\!hush\flourierDraw_jpeg_svg\reanimation\reanimate-master>cabal v1-exec -- ghc C:\Users\admin\Desktop\!hush\flourierDraw_jpeg_svg\reanimation\reanimate-master\examples\fourier_draw.hs
+[1 of 1] Compiling Main             ( C:\Users\admin\Desktop\!hush\flourierDraw_jpeg_svg\reanimation\reanimate-master\examples\fourier_draw.hs, C:\Users\admin\Desktop\!hush\flourierDraw_jpeg_svg\reanimation\reanimate-master\examples\fourier_draw.o )
+
+C:\Users\admin\Desktop\!hush\flourierDraw_jpeg_svg\reanimation\reanimate-master\examples\fourier_draw.hs:36:12: error:
+    ? Variable not in scope:
+        signal :: Integer -> Integer -> Frame Double
+    ? Perhaps you meant ‘signum’ (imported from Prelude)
+   |
+36 |     phi <- signal 0 15
+   |            ^^^^^^
+
+C:\Users\admin\Desktop\!hush\flourierDraw_jpeg_svg\reanimation\reanimate-master\examples\fourier_draw.hs:37:16: error:
+    ? Variable not in scope:
+        signal :: Integer -> Integer -> Frame Double
+    ? Perhaps you meant ‘signum’ (imported from Prelude)
+   |
+37 |     fLength <- signal 0 1
+   |                ^^^^^^
+
+
+
+
+
+
+
+> react-scripts start
+
+Failed to compile.
+
+Invalid configuration object. Webpack has been initialised using a configuration object that does not match the API schema.
+ - configuration.module.rules[2].oneOf[1].include: The provided value "C:\\Users\\admin\\Desktop\\!hush\\flourierDraw_jpeg_svg\\reanimation\\reanimate-master\\viewer\\npmlearning\\my-app\\src" contains exclamation mark (!) which is not allowed because it's reserved for loader syntax.
+
+npm ERR! code ELIFECYCLE
+npm ERR! errno 1
+npm ERR! my-app@0.1.0 start: `react-scripts start`
+npm ERR! Exit status 1
+npm ERR!
+npm ERR! Failed at the my-app@0.1.0 start script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     C:\Users\admin\AppData\Roaming\npm-cache\_logs\2019-08-27T23_56_46_386Z-debug.log
+
+
+
+
+
+
+
+
+
+\Users\admin\Desktop\hush\flourierDraw_jpeg_svg\reanimation\reanimate-master\viewer>npm start
+
+> viewer@0.1.0 start C:\Users\admin\Desktop\hush\flourierDraw_jpeg_svg\reanimation\reanimate-master\viewer
+> react-scripts start
+
+'react-scripts' is not recognized as an internal or external command,
+operable program or batch file.
+npm ERR! code ELIFECYCLE
+npm ERR! errno 1
+npm ERR! viewer@0.1.0 start: `react-scripts start`
+npm ERR! Exit status 1
+npm ERR!
+npm ERR! Failed at the viewer@0.1.0 start script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+npm WARN Local package.json exists, but node_modules missing, did you mean to install?
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     C:\Users\admin\AppData\Roaming\npm-cache\_logs\2019-08-28T00_25_59_904Z-debug.log
+
+C:\Users\admin\Desktop\hush\flourierDraw_jpeg_svg\reanimation\reanimate-master\viewer>
+C:\Users\admin\Desktop\hush\flourierDraw_jpeg_svg\reanimation\reanimate-master\viewer>npm install
+npm WARN notice [SECURITY] js-yaml has the following vulnerabilities: 1 high, 1 moderate. Go here for more details: https://www.npmjs.com/advisories?search=js-yaml&version=3.12.1 - Run `npm i npm@latest -g` to upgrade your npm version, and then `npm audit` to get more info.
+npm WARN notice [SECURITY] set-value has the following vulnerability: 1 high. Go here for more details: https://www.npmjs.com/advisories?search=set-value&version=2.0.0 - Run `npm i npm@latest -g` to upgrade your npm version, and then `npm audit` to get more info.
+npm WARN notice [SECURITY] braces has the following vulnerability: 1 low. Go here for more details: https://www.npmjs.com/advisories?search=braces&version=1.8.5 - Run `npm i npm@latest -g` to upgrade your npm version, and then `npm audit` to get more info.
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@1.2.4 (node_modules\fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@1.2.4: wanted {"os":"darwin","arch":"any"} (current: {"os":"win32","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@1.2.7 (node_modules\chokidar\node_modules\fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@1.2.7: wanted {"os":"darwin","arch":"any"} (current: {"os":"win32","arch":"x64"})
+
+added 1814 packages in 292.388s
+
+C:\Users\admin\Desktop\hush\flourierDraw_jpeg_svg\reanimation\reanimate-master\viewer>npm start
+
+> viewer@0.1.0 start C:\Users\admin\Desktop\hush\flourierDraw_jpeg_svg\reanimation\reanimate-master\viewer
+> react-scripts start
+Starting the development server...
+
+Browserslist: caniuse-lite is outdated. Please run next command `npm update caniuse-lite browserslist`
+Compiled successfully!
+
+You can now view viewer in the browser.
+
+  Local:            http://localhost:3000/
+  On Your Network:  http://192.168.56.1:3000/
+
+Note that the development build is not optimized.
+To create a production build, use npm run build.
+
+Terminate batch job (Y/N)? y
+
+C:\Users\admin\Desktop\hush\flourierDraw_jpeg_svg\reanimation\reanimate-master\viewer>npm run build
+
+
+
+
+
+
+
+
+
+
+

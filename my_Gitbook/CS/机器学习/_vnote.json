@@ -1,0 +1,128 @@
+{
+    "created_time": "2019-09-06T09:40:38Z",
+    "files": [
+        {
+            "attachment_folder": "",
+            "attachments": [
+            ],
+            "created_time": "2019-09-06T09:40:38Z",
+            "modified_time": "2019-09-06T09:40:38Z",
+            "name": "web_Sources.md",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "attachments": [
+            ],
+            "created_time": "2019-09-06T09:40:38Z",
+            "modified_time": "2019-09-06T09:40:38Z",
+            "name": "可视化神经网络.md",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "attachments": [
+            ],
+            "created_time": "2019-09-06T09:40:38Z",
+            "modified_time": "2019-09-06T09:40:38Z",
+            "name": "深度学习.md",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "attachments": [
+            ],
+            "created_time": "2019-09-06T09:40:38Z",
+            "modified_time": "2019-09-06T09:40:38Z",
+            "name": "神经网络可视化.md",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "attachments": [
+            ],
+            "created_time": "2019-09-06T09:40:38Z",
+            "modified_time": "2019-09-06T09:40:38Z",
+            "name": "论文.md",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "attachments": [
+            ],
+            "created_time": "2019-09-12T04:15:32Z",
+            "modified_time": "2019-09-12T04:19:20Z",
+            "name": "conda+tensorflow+pytorch.md",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "attachments": [
+            ],
+            "created_time": "2019-09-12T04:15:44Z",
+            "modified_time": "2019-09-12T04:22:43Z",
+            "name": "conda+tenflow+keras.md",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "attachments": [
+            ],
+            "created_time": "2019-09-12T06:00:03Z",
+            "modified_time": "2019-09-12T06:00:15Z",
+            "name": "莫烦python.md",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "attachments": [
+            ],
+            "created_time": "2019-09-12T06:01:27Z",
+            "modified_time": "2019-09-12T06:10:04Z",
+            "name": "keras.md",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "attachments": [
+            ],
+            "created_time": "2019-09-12T06:09:34Z",
+            "modified_time": "2019-09-12T06:10:02Z",
+            "name": "案例机器学习keras搭建环境网络及性能训练.md",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "attachments": [
+            ],
+            "created_time": "2019-09-12T06:14:17Z",
+            "modified_time": "2019-09-12T06:14:20Z",
+            "name": "opencv人脸识别.md",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "attachments": [
+            ],
+            "created_time": "2019-09-12T06:47:01Z",
+            "modified_time": "2019-09-12T06:47:10Z",
+            "name": "Spark之RDD编程.md",
+            "tags": [
+            ]
+        }
+    ],
+    "sub_directories": [
+    ],
+    "version": "1"
+}

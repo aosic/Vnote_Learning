@@ -1,0 +1,31 @@
+{
+    "created_time": "2019-10-04T08:13:07Z",
+    "files": [
+        {
+            "attachment_folder": "",
+            "attachments": [
+            ],
+            "created_time": "2019-10-04T08:13:12Z",
+            "modified_time": "2019-10-04T08:13:12Z",
+            "name": "cav.md",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "attachments": [
+            ],
+            "created_time": "2019-10-04T08:13:40Z",
+            "modified_time": "2019-10-18T13:21:38Z",
+            "name": "顶刊会议论文等等.md",
+            "tags": [
+            ]
+        }
+    ],
+    "sub_directories": [
+        {
+            "name": "信息和香农信息论"
+        }
+    ],
+    "version": "1"
+}

@@ -1,0 +1,438 @@
+{
+    "created_time": "2019-09-06T09:40:37Z",
+    "files": [
+        {
+            "attachment_folder": "",
+            "attachments": [
+            ],
+            "created_time": "2019-09-06T09:40:37Z",
+            "modified_time": "2019-09-06T09:40:37Z",
+            "name": "21Minutes写编译器Haskell.md",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "attachments": [
+            ],
+            "created_time": "2019-09-06T09:40:37Z",
+            "modified_time": "2019-09-06T09:40:37Z",
+            "name": "99haskell.md",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "attachments": [
+            ],
+            "created_time": "2019-09-06T09:40:37Z",
+            "modified_time": "2019-09-06T09:40:37Z",
+            "name": "cabal.md",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "attachments": [
+            ],
+            "created_time": "2019-09-06T09:40:37Z",
+            "modified_time": "2019-09-06T09:40:37Z",
+            "name": "cabal使用hackage上的包.md",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "attachments": [
+            ],
+            "created_time": "2019-09-06T09:40:37Z",
+            "modified_time": "2019-09-06T09:40:37Z",
+            "name": "cabal实例学习.md",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "attachments": [
+            ],
+            "created_time": "2019-09-06T09:40:37Z",
+            "modified_time": "2019-09-06T09:40:37Z",
+            "name": "CS240Haskell.md",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "attachments": [
+            ],
+            "created_time": "2019-09-06T09:40:37Z",
+            "modified_time": "2019-09-06T09:40:37Z",
+            "name": "cygwin.md",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "attachments": [
+            ],
+            "created_time": "2019-09-06T09:40:37Z",
+            "modified_time": "2019-09-06T09:40:37Z",
+            "name": "fp巨佬.md",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "attachments": [
+            ],
+            "created_time": "2019-09-06T09:40:37Z",
+            "modified_time": "2019-09-06T09:40:37Z",
+            "name": "Gloss.md",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "attachments": [
+            ],
+            "created_time": "2019-09-06T09:40:37Z",
+            "modified_time": "2019-09-06T09:40:37Z",
+            "name": "GNN.md",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "attachments": [
+            ],
+            "created_time": "2019-09-06T09:40:37Z",
+            "modified_time": "2019-09-06T09:40:37Z",
+            "name": "haskell -lambda强大的表现力，无拘束地表达抽象.md",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "attachments": [
+            ],
+            "created_time": "2019-09-06T09:40:37Z",
+            "modified_time": "2019-09-06T09:40:37Z",
+            "name": "haskell- Euterpea.md",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "attachments": [
+            ],
+            "created_time": "2019-09-06T09:40:37Z",
+            "modified_time": "2019-09-06T09:40:37Z",
+            "name": "haskelL-coq-isabella-prolog实现《离散数学第二版屈婉玲》.md",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "attachments": [
+            ],
+            "created_time": "2019-09-06T09:40:37Z",
+            "modified_time": "2019-09-06T09:40:37Z",
+            "name": "haskell-Debug或者形式证明等值演算保留过程或者eval不用人脑eval求值的过程.md",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "attachments": [
+            ],
+            "created_time": "2019-09-06T09:40:37Z",
+            "modified_time": "2019-09-06T09:40:37Z",
+            "name": "haskell-~惰性求值.md",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "attachments": [
+            ],
+            "created_time": "2019-09-06T09:40:37Z",
+            "modified_time": "2019-09-06T09:40:37Z",
+            "name": "haskell.exe.md",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "attachments": [
+            ],
+            "created_time": "2019-09-06T09:40:37Z",
+            "modified_time": "2019-09-06T09:40:37Z",
+            "name": "haskell_debug.md",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "attachments": [
+            ],
+            "created_time": "2019-09-06T09:40:37Z",
+            "modified_time": "2019-09-06T09:40:37Z",
+            "name": "HaskellBook.md",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "attachments": [
+            ],
+            "created_time": "2019-09-06T09:40:37Z",
+            "modified_time": "2019-09-06T09:40:37Z",
+            "name": "haskellVSscala.md",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "attachments": [
+            ],
+            "created_time": "2019-09-06T09:40:37Z",
+            "modified_time": "2019-09-06T09:40:37Z",
+            "name": "haskell动画引擎reanimation.md",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "attachments": [
+            ],
+            "created_time": "2019-09-06T09:40:37Z",
+            "modified_time": "2019-09-06T09:40:37Z",
+            "name": "Haskell大世界+思考.md",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "attachments": [
+            ],
+            "created_time": "2019-09-06T09:40:37Z",
+            "modified_time": "2019-09-06T09:40:37Z",
+            "name": "haskell安装模块上传modules.md",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "attachments": [
+            ],
+            "created_time": "2019-09-06T09:40:37Z",
+            "modified_time": "2019-09-06T09:40:37Z",
+            "name": "Haskell数据结构.md",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "attachments": [
+            ],
+            "created_time": "2019-09-06T09:40:37Z",
+            "modified_time": "2019-09-06T09:40:37Z",
+            "name": "Haskell最权威参考就是文档.md",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "attachments": [
+            ],
+            "created_time": "2019-09-06T09:40:37Z",
+            "modified_time": "2019-09-06T09:40:37Z",
+            "name": "Haskell理解单子.md",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "attachments": [
+            ],
+            "created_time": "2019-09-06T09:40:37Z",
+            "modified_time": "2019-09-06T09:40:37Z",
+            "name": "haskell资源.md",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "attachments": [
+            ],
+            "created_time": "2019-09-06T09:40:37Z",
+            "modified_time": "2019-09-06T09:40:37Z",
+            "name": "haskel应用领域和编程需求.md",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "attachments": [
+            ],
+            "created_time": "2019-09-06T09:40:37Z",
+            "modified_time": "2019-09-06T09:40:37Z",
+            "name": "House-Haskell.md",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "attachments": [
+            ],
+            "created_time": "2019-09-06T09:40:37Z",
+            "modified_time": "2019-09-06T09:40:37Z",
+            "name": "js.md",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "attachments": [
+            ],
+            "created_time": "2019-09-06T09:40:37Z",
+            "modified_time": "2019-09-06T09:40:37Z",
+            "name": "lambda演算出函数式编程认知学习发展路线.md",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "attachments": [
+            ],
+            "created_time": "2019-09-06T09:40:37Z",
+            "modified_time": "2019-09-06T09:40:37Z",
+            "name": "Lens.md",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "attachments": [
+            ],
+            "created_time": "2019-09-06T09:40:37Z",
+            "modified_time": "2019-09-06T09:40:37Z",
+            "name": "purely functional data structures.md",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "attachments": [
+            ],
+            "created_time": "2019-09-06T09:40:37Z",
+            "modified_time": "2019-09-06T09:40:37Z",
+            "name": "Scala.md",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "attachments": [
+            ],
+            "created_time": "2019-09-06T09:40:37Z",
+            "modified_time": "2019-09-06T09:40:37Z",
+            "name": "tmp.md",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "attachments": [
+            ],
+            "created_time": "2019-09-06T09:40:37Z",
+            "modified_time": "2019-09-06T09:40:37Z",
+            "name": "从字符串到能用的数据结构到底有多远？——Haskell的Parsec实战.md",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "attachments": [
+            ],
+            "created_time": "2019-09-06T09:40:37Z",
+            "modified_time": "2019-09-06T09:40:37Z",
+            "name": "令人敬畏的haskell.md",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "attachments": [
+            ],
+            "created_time": "2019-09-06T09:40:37Z",
+            "modified_time": "2019-09-06T09:40:37Z",
+            "name": "函数式编程好处.md",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "attachments": [
+            ],
+            "created_time": "2019-09-06T09:40:37Z",
+            "modified_time": "2019-09-06T09:40:37Z",
+            "name": "函数式编程语言.md",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "attachments": [
+            ],
+            "created_time": "2019-09-06T09:40:37Z",
+            "modified_time": "2019-09-06T09:40:37Z",
+            "name": "张淞书笔记.md",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "attachments": [
+            ],
+            "created_time": "2019-09-06T09:40:37Z",
+            "modified_time": "2019-09-06T09:40:37Z",
+            "name": "类型一战2写作计划.md",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "attachments": [
+            ],
+            "created_time": "2019-09-06T09:40:37Z",
+            "modified_time": "2019-09-06T09:40:37Z",
+            "name": "范畴学.md",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "attachments": [
+            ],
+            "created_time": "2019-09-06T09:40:37Z",
+            "modified_time": "2019-09-06T09:40:37Z",
+            "name": "非确定性-逻辑编程.md",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "attachments": [
+            ],
+            "created_time": "2019-09-06T09:40:37Z",
+            "modified_time": "2019-09-06T09:40:37Z",
+            "name": "魔力Haskell.md",
+            "tags": [
+            ]
+        }
+    ],
+    "sub_directories": [
+    ],
+    "version": "1"
+}

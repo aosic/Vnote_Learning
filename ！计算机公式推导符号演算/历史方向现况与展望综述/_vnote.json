@@ -1,0 +1,68 @@
+{
+    "created_time": "2019-10-06T04:10:42Z",
+    "files": [
+        {
+            "attachment_folder": "",
+            "attachments": [
+            ],
+            "created_time": "2019-10-06T04:10:48Z",
+            "modified_time": "2019-10-06T04:45:30Z",
+            "name": "综述.md",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "attachments": [
+            ],
+            "created_time": "2019-10-06T04:10:54Z",
+            "modified_time": "2019-10-06T04:17:42Z",
+            "name": "历史.md",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "attachments": [
+            ],
+            "created_time": "2019-10-06T04:11:45Z",
+            "modified_time": "2019-10-06T04:16:11Z",
+            "name": "吴文俊.md",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "attachments": [
+            ],
+            "created_time": "2019-10-06T04:16:53Z",
+            "modified_time": "2019-10-06T04:17:08Z",
+            "name": "西南交通大学徐扬教授团队.md",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "attachments": [
+            ],
+            "created_time": "2019-10-06T04:19:41Z",
+            "modified_time": "2019-10-06T04:45:19Z",
+            "name": "会议活动.md",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "attachments": [
+            ],
+            "created_time": "2019-10-06T04:21:06Z",
+            "modified_time": "2019-10-06T04:22:35Z",
+            "name": "MMP数学机械化自动推理平台.md",
+            "tags": [
+            ]
+        }
+    ],
+    "sub_directories": [
+    ],
+    "version": "1"
+}

@@ -1,0 +1,51 @@
+{
+    "created_time": "2019-09-06T09:40:37Z",
+    "files": [
+        {
+            "attachment_folder": "",
+            "attachments": [
+            ],
+            "created_time": "2019-09-06T09:40:37Z",
+            "modified_time": "2019-09-06T09:40:37Z",
+            "name": "desmos数学作图.md",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "attachments": [
+            ],
+            "created_time": "2019-09-06T09:40:37Z",
+            "modified_time": "2019-09-06T09:40:37Z",
+            "name": "Python.md",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "attachments": [
+            ],
+            "created_time": "2019-09-06T09:40:37Z",
+            "modified_time": "2019-09-06T09:40:37Z",
+            "name": "R.md",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "attachments": [
+            ],
+            "created_time": "2019-09-06T09:40:37Z",
+            "modified_time": "2019-09-06T09:40:37Z",
+            "name": "互动数学.md",
+            "tags": [
+            ]
+        }
+    ],
+    "sub_directories": [
+        {
+            "name": "Jupyter"
+        }
+    ],
+    "version": "1"
+}

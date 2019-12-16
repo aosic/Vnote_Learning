@@ -1,0 +1,178 @@
+vnote_backup_file_826537664 E:/my_Gitbook/CS/量子计算.md
+# indoor
+
+
+
+
+https://zhuanlan.zhihu.com/p/36303707
+
+你要搞的话，用不着等到量子计算机出来，现在就能尝试。D-Wave做了很多工作，在GPU上模拟量子计算。甚至出过一篇paper，比较OpenCL和CUDA的性能差异
+
+[https://arxiv.org/ftp/arxiv/papers/1005/1005.2581.pdf](https://link.zhihu.com/?target=https%3A//arxiv.org/ftp/arxiv/papers/1005/1005.2581.pdf)
+
+  
+
+至于D-Wave拿手的量子退火，也可以在GPU上用蒙特卡洛法模拟  
+
+[http://on-demand.gputechconf.com/gtc/2016/presentation/s6380-james-king-gpu-based-monte-carlo-algorithms.pdf](https://link.zhihu.com/?target=http%3A//on-demand.gputechconf.com/gtc/2016/presentation/s6380-james-king-gpu-based-monte-carlo-algorithms.pdf)
+
+  
+
+实际上即便量子计算机推广了，在很长一段时间内也仍然不会是个通用计算的模型，而是fixed function的做法。比如固化一些量子计算有优势的算法，马尔科夫链、质数分解等，而在传统计算机上，用传统的方法调用。你不要管那些函数怎么实现的，它能很快给你结果就是了。所以，这件事情和并行无关、和语言无关、和系统无关。
+
+  
+  
+作者：叛逆者  
+链接：https://www.zhihu.com/question/49616859/answer/117077257  
+来源：知乎  
+著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
+
+
+
+
+
+
+
+
+
+
+
+# courses
+
+
+
+
+
+news.mit.edu/2017/toward-optical-quantum-computing-0616
+课程
+
+https://zhuanlan.zhihu.com/quantum-computing
+
+个人觉得对于非物理科班出身的同学，学习量子计算入门看Nielsen的Quantum Computation and Quantum Information就足够了，而且一开始也不需要懂太多量子力学知识，直接学习书中的量子力学四大公设（其实是冯诺依曼的量子力学公理化系统）就足够了。四大公设大致如下：公设一，系统状态空间为Hilbert空间；公设二，系统演化为Hilbert空间酉算子（薛定谔方程的推论）；公设三，对系统的测量等价于用一组测量算子对系统状态向量做内积；公设四，复合系统的状态相当于独立系统状态的张量积。这四大公设把量子计算中用到的量子力学原理彻底抽象为数学公理。根据这四大公设，研究量子计算的算法和信息学理论，就可以暂时脱离物理学原理，纯粹从数学上进行讨论。
+
+然后除了Nielsen还是要再次推荐一下John Preskill的lecture notes，写的比较好
+
+
+# knows
+
+
+https://www.zhihu.com/question/26933442/answer/39530821
+
+
+
+
+
+作者：Climber.pI  
+链接：https://www.zhihu.com/question/49616859/answer/117256310  
+来源：知乎  
+著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。  
+  
+
+更新: 应明生老师今年在交大 BASICS 的 summer school 上的 slides 以及一份中文介绍; 主要涉及的是08年之后的相关工作:  
+[basics.sjtu.edu.cn/summer_school/basics16/download/](https://link.zhihu.com/?target=http%3A//basics.sjtu.edu.cn/summer_school/basics16/files/Mingsheng_Ying/%25E9%2587%258F%25E5%25AD%2590%25E7%25A8%258B%25E5%25BA%258F%25E8%25AE%25BE%25E8%25AE%25A1%25E7%25A0%2594%25E7%25A9%25B6%25E7%259A%2584%25E8%25BF%2591%25E6%259C%259F%25E8%25BF%259B%25E5%25B1%2595.pdf)  
+\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-  
+**先来几个名词解释: Quantum circuit (universal set), Solovay-Kitaev theorem, ![\mathsf{BQP}](https://www.zhihu.com/equation?tex=%5Cmathsf%7BBQP%7D).**
+
+如果不知道是什么的各位还是别强答了, 这一屏幕写的都特么是啥啊......
+
+如果题主知道 Solovay-Kitaev theorem 和 Gottesman-Knill theorem 的话, 还对![\mathsf{BQP}](https://www.zhihu.com/equation?tex=%5Cmathsf%7BBQP%7D)里面都是什么东西有点基本概念的话, 就知道 quantum circuit 可以用一系列 universal set 表示. 一方面, 所谓"编程"的方式之一就是根据量子算法生成对应的 quantum circuit. 比如现在 Quipper 或者 MSR 的 LIQU|> 这样的东西. MSR 几个月前为了推广 LIQU|> 还特地组织了个比赛 [Microsoft Quantum Challenge](https://link.zhihu.com/?target=https%3A//www.microsoft.com/en-us/research/academic-program/microsoft-quantum-challenge/).  
+早期的量子算法设计, 比如 Shor 算法, 必须手动设计对应的量子线路. 而现在这一工作很大程度上可以借助 circuit synthesis 的理论, 比如最初 Kitaev 给出的 Solovay-Kitaev theorem 的构造性证明 (可读性较好的版本见 Nielsen 等人的 Notes: [https://arxiv.org/abs/quant-ph/0505030](https://link.zhihu.com/?target=https%3A//arxiv.org/abs/quant-ph/0505030)), 或者近年来 Clifford+T 之类与代数数论 (其实是抽象代数), 见 [https://arxiv.org/abs/1206.5236](https://link.zhihu.com/?target=https%3A//arxiv.org/abs/1206.5236) 和 [https://arxiv.org/abs/1403.2975](https://link.zhihu.com/?target=https%3A//arxiv.org/abs/1403.2975). 这也是目前 MSR 的 QuArC 重点关注的方向之一.
+
+另一方面, Gottesman-Knill theorem 和一些相关的结果告诉我们, 一部分 quantum circuit 是能够在经典计算机上有效模拟的(Clifford gate). 提出者之一的 Daniel Gottesman 还以此和纠错编码相关的工作, 拿过 2003 年 MIT Technology Review 的 Innovator Under 35 ([Innovator Under 35: Daniel Gottesman, 33](https://link.zhihu.com/?target=http%3A//www2.technologyreview.com/tr35/profile.aspx%3FTRID%3D289)). 今年年初 Sergey Bravyi 和 David Gosset 进一步改进了 Clifford gate 的经典模拟算法([http://arxiv.org/abs/1601.07601](https://link.zhihu.com/?target=http%3A//arxiv.org/abs/1601.07601)), 在文中展示了约40个 qubit 的算法模拟结果.
+
+更多相关介绍见:  
+[量子软件是否有位数之说？ \- Climber.pi 的回答](https://www.zhihu.com/question/30231092/answer/51946851)  
+[Google 的 Quantum Computing Playground 可以用来做什么？ - 罗秀哲的回答](https://www.zhihu.com/question/44784094/answer/102271295)
+
+需要说明的是, 这里讨论的都是所谓 "quantum data, classical control" 的情况, 忽略了纯量子控制流的情况. 对此感兴趣的同学可以留意下应明生老师的相关工作 (今年还出了本书, [elsevier.com 的页面](https://link.zhihu.com/?target=http%3A//store.elsevier.com/Foundations-of-Quantum-Programming/Mingsheng-Ying/isbn-9780128023068/))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+https://www.academia.edu/23827458/Linear_Optical_Quantum_Computing
+
+# 量子算法
+
+https://zhuanlan.zhihu.com/p/30311329
+
+https://zhuanlan.zhihu.com/p/27387032
+
+漫画 | 鹅厂内部资料流出：10分钟看懂量子比特、量子计算和量子算法
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+https://zhuanlan.zhihu.com/p/34304148
+
+
+
+
+
+
+
+#  量子计算编程语言和对应的模拟器
+www.qcompiler.com
+
+https://www.zhihu.com/question/263946287/answer/372925411
+
+微软展示了在拓扑量子计算和其生态构建上的进展。今年的晚些时候，微软将会发布一个和 Visual Studio 深度集成的量子计算编程语言和对应的模拟器。开发者可以用来实现量子算法，开发和调试量子程序。
+
+https://zhuanlan.zhihu.com/p/29918837
+
+
+
+# 量子套装
+
+
+https://zhuanlan.zhihu.com/p/31965306
+https://github.com/Microsoft/Quantum
+
+#  微软与谷歌合作推出量子编程课程：现在限时免费，还支持Python
+
+
+
+
+https://brilliant.org/courses/quantum-computing/
+
+
+https://zhuanlan.zhihu.com/p/67543346
+
+
+
+

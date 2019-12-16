@@ -1,0 +1,34 @@
+{
+    "attachment_folder": "_v_attachments",
+    "created_time": "2019-10-04T08:19:04Z",
+    "files": [
+    ],
+    "image_folder": "",
+    "recycle_bin_folder": "_v_recycle_bin",
+    "sub_directories": [
+        {
+            "name": "数学之路指南课表"
+        },
+        {
+            "name": "Maths"
+        },
+        {
+            "name": "数学书博客论坛论文圈子"
+        },
+        {
+            "name": "极大代数法"
+        },
+        {
+            "name": "代数"
+        },
+        {
+            "name": "基础数学牛逼讲义"
+        },
+        {
+            "name": "统计"
+        }
+    ],
+    "tags": [
+    ],
+    "version": "1"
+}

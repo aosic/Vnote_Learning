@@ -1,0 +1,38 @@
+{
+    "created_time": "2019-09-06T09:40:37Z",
+    "files": [
+        {
+            "attachment_folder": "",
+            "attachments": [
+            ],
+            "created_time": "2019-09-06T09:40:37Z",
+            "modified_time": "2019-09-06T09:40:37Z",
+            "name": "IT视频教程目录.md",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "attachments": [
+            ],
+            "created_time": "2019-09-06T09:40:37Z",
+            "modified_time": "2019-09-06T09:40:37Z",
+            "name": "README.md",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "attachments": [
+            ],
+            "created_time": "2019-09-06T09:40:37Z",
+            "modified_time": "2019-09-06T09:40:37Z",
+            "name": "SUMMARY.md",
+            "tags": [
+            ]
+        }
+    ],
+    "sub_directories": [
+    ],
+    "version": "1"
+}

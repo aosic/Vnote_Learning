@@ -1,0 +1,386 @@
+vnote_backup_file_826537664 E:/my_Gitbook/CS/机器学习/论文.md
+# 机器学习初学者该如何选读适合自己水平的论文？
+https://www.zhihu.com/question/45422825/answer/544911170
+
+https://www.zhihu.com/question/26006703/answer/536169538
+
+
+https://zhuanlan.zhihu.com/p/23479865
+
+
+https://zhuanlan.zhihu.com/p/60877739
+
+
+
+
+
+
+
+
+
+
+https://www.zhihu.com/question/54423154/answer/263387445
+
+https://www.zhihu.com/question/313632967/answer/632732277
+# 机器学习方面的论文应该在哪找？
+https://www.zhihu.com/question/43664024/answer/256366763
+
+https://www.zhihu.com/question/22221180/answer/115269426
+
+https://zhuanlan.zhihu.com/p/23479725
+
+https://www.zhihu.com/question/304040466/answer/571490597
+
+https://www.zhihu.com/question/295738353/answer/529982856
+
+https://www.zhihu.com/question/31785984/answer/229504080
+
+
+
+https://zhuanlan.zhihu.com/p/53786690
+
+
+https://www.zhihu.com/search?type=content&q=机器学习比看论文
+
+作者：经管之家  
+链接：https://www.zhihu.com/question/304040466/answer/571490597  
+来源：知乎  
+著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。  
+  
+
+**经管之家曾经组织过“机器学习/推荐算法”方面的优秀学习资源，特别是书和资料的征集，以下第一批“机器学习“资源52个具体好货在这儿（还在陆续推荐增加中哦......）**
+
+**（1）坛友 lzguo568推荐图书资源9个**  
+
+介绍几本经典图书  
+1,Tom M Mitchell - Machine Learning  
+2、Introduction\_to\_Machine\_Learning（Ethem\_Alpaydin）.pdf  
+3、Pattern Recognition and MachineLearning.pdf  
+4、MIT.Fundamentals.of.Machine.Learning.for.Predictive.Data.Analytics  
+5、Foundations\_of\_Machine_Learning.pdf  
+6、Learning from data.pdf  
+7、机器学习系统设计.Python.2014.pdf  
+8、数据挖掘：概念与技术（中文第三版）.pdf  
+9、Machine Learning and Data Science - AnIntroduction to Statistical Learning Methods with R.pdf
+
+  
+
+-   **（2）wwqqer版主推荐的自己整理的学习资源专题，资源约20个**  
+    
+
+  
+
+机器学习在这里：**机器学习 (Machine Learning)**  
+[【经典教材系列】An Introduction to Machine Learning](http://link.zhihu.com/?target=http%3A//bbs.pinggu.org/thread-4109521-1-1.html)  
+[【经典教材系列】Machine Learning: An Algorithmic Perspective (第二版)](http://link.zhihu.com/?target=http%3A//bbs.pinggu.org/thread-3704312-1-1.html)  
+[【经典教材系列】Introduction To Pattern Recognition And Machine Learning](http://link.zhihu.com/?target=http%3A//bbs.pinggu.org/thread-3721643-1-1.html)  
+[【经典教材系列】Compression Schemes for Mining Large Datasets: A MachineLearning Perspective](http://link.zhihu.com/?target=http%3A//bbs.pinggu.org/thread-3953190-1-1.html)  
+[【经典教材系列】Unsupervised Process Monitoring and Fault Diagnosis withMachine Learning Methods](http://link.zhihu.com/?target=http%3A//bbs.pinggu.org/thread-3953197-1-1.html)  
+[【大数据系列】Rule Based Systems for Big Data: A Machine Learning Approach](http://link.zhihu.com/?target=http%3A//bbs.pinggu.org/thread-3902230-1-1.html)  
+[【大数据系列】Machine Learning Models and Algorithms for Big DataClassification](http://link.zhihu.com/?target=http%3A//bbs.pinggu.org/thread-4109555-1-1.html)  
+[【经典教材系列】Modeling and Stochastic Learning for Forecasting in HighDimensions](http://link.zhihu.com/?target=http%3A//bbs.pinggu.org/thread-3808897-1-1.html)  
+[【经典教材系列】Fundamentals of Machine Learning for Predictive DataAnalytics](http://link.zhihu.com/?target=http%3A//bbs.pinggu.org/thread-4154919-1-1.html)  
+[【经典教材系列】Numerical Algorithms: Methods for Computer Vision, MachineLearning, and Graphics](http://link.zhihu.com/?target=http%3A//bbs.pinggu.org/thread-4106821-1-1.html)  
+[【经典教材系列】Machine Learning in Complex Networks](http://link.zhihu.com/?target=http%3A//bbs.pinggu.org/thread-4203141-1-1.html)  
+[【经典教材系列】Semisupervised Learning for Computational Linguistics](http://link.zhihu.com/?target=http%3A//bbs.pinggu.org/thread-4183759-1-1.html)  
+[【经典教材系列】Practical Machine Learning （2016）](http://link.zhihu.com/?target=http%3A//bbs.pinggu.org/thread-4407628-1-1.html)  
+[【经典教材系列】Teaching Learning Based Optimization Algorithm: And ItsEngineering Application](http://link.zhihu.com/?target=http%3A//bbs.pinggu.org/thread-4497673-1-1.html)  
+[【经典教材系列】统计机器翻译 Linguistically Motivated StatisticalMachine Translation: Models and Algorithms](http://link.zhihu.com/?target=http%3A//bbs.pinggu.org/thread-3771050-1-1.html)  
+[【经典教材系列】From Curve Fitting to Machine Learning (第二版)](http://link.zhihu.com/?target=http%3A//bbs.pinggu.org/thread-4585275-1-1.html)  
+[【大数据系列】Machine Learning in Evolution Strategies](http://link.zhihu.com/?target=http%3A//bbs.pinggu.org/thread-4631531-1-1.html)  
+[【大数据系列】Statistical Reinforcement Learning: Modern Machine LearningApproaches](http://link.zhihu.com/?target=http%3A//bbs.pinggu.org/thread-4619249-1-1.html)  
+[【经典教材系列】Machine Learning for Microbial Phenotype Prediction](http://link.zhihu.com/?target=http%3A//bbs.pinggu.org/thread-4676495-1-1.html)  
+[【经典教材系列】Hybrid Approaches to Machine Translation](http://link.zhihu.com/?target=http%3A//bbs.pinggu.org/thread-4701399-1-1.html)
+
+  
+
+-   **（3）坛友 lzguo568推荐公开课资源2个**  
+    
+
+  
+
+分享一下加州理工学院公开课
+
+[http://open.163.com/movie/2012/2/3/C/M8FH262HJ_M8FTVDQ3C.html](http://link.zhihu.com/?target=http%3A//open.163.com/movie/2012/2/3/C/M8FH262HJ_M8FTVDQ3C.html)
+
+[https://www.coursera.org/learn/ml-foundations](http://link.zhihu.com/?target=https%3A//www.coursera.org/learn/ml-foundations) 机器学习基础：案例研究
+
+  
+
+-   **(4)我的素质低版主推荐网课4项，斯坦福公开课1个，博客2个，共7个**  
+    
+
+  
+
+第一期资源分享的主题是我心中”机器学习“、”EDW企业数据仓库“、”风险建模“，这三个方面都是偏向技术的，相对来说，风险建模可能资料较多，但是练习数据却不多，风险数据比较敏感嘛。相对来说机器学习的话，资料多，练习数据也多。
+
+如果是新手，想学机器学习之一类的，我觉得可以直接看书，里面的复杂符号可以让你马上想睡... 可以报个网课学一下，现在网课很多，譬如CDA、小象学院、七月在线、天善智能等机构，当然CDA在这块经验丰富；
+
+如果你有底子，直接去斯坦福公开课，吴恩达老师的中文版也有，[http://open.163.com/special/opencourse/machinelearning.html](http://link.zhihu.com/?target=http%3A//bbs.pinggu.org/linkto.php%3Furl%3Dhttp%253A%252F%252Fopen.163.com%252Fspecial%252Fopencourse%252Fmachinelearning.html)
+
+机器学习理论内容学起来不复杂，但是如何实现这个需要更多练习，挑一款实现软件，网上搜一下实现博客就行。网上不同软件不同实现的博客很多很多，当然还有推荐我自己的小博客啦~ ：[http://blog.csdn.net/sinat_26917383/article/category/6093536](http://link.zhihu.com/?target=http%3A//bbs.pinggu.org/linkto.php%3Furl%3Dhttp%253A%252F%252Fblog.csdn.net%252Fsinat_26917383%252Farticle%252Fcategory%252F6093536)
+
+  
+
+-   **（5）坛友“[东方祥](http://link.zhihu.com/?target=http%3A//bbs.pinggu.org/home.php%3Fmod%3Dspace%26uid%3D6113910)“推荐图书2本**  
+    
+
+  
+
+数据挖掘：概念与技术（原书第3版）
+
+本书完整全面地讲述数据挖掘的概念、方法、技术和最新研究进展。本书对前两版做了全面修订，加强和重新组织了全书的技术内容，重点论述了数据预处理、频繁模式挖掘、分类和聚类等的内容，还全面讲述了OLAP和离群点检测，并研讨了挖掘网络、复杂数据类型以及重要应用领域。
+
+本书是数据挖掘和知识发现领域内的所有教师、研究人员、开发人员和用户都必读的参考书，是一本适用于数据分析、数据挖掘和知识发现课程的优秀教材，可以用做高年级本科生或者一年级研究生的数据挖掘导论教材。
+
+机器学习周志华
+
+它是一本和Tom M. Mitchell那本Machine Learning具有一样重大意义的书。很有可能，它会成为一本中国无数Machine Learning热爱者的启蒙教材。
+
+  
+
+-   **（6）坛友“南合季“推荐图书5本**  
+    
+
+  
+
+我也来说一个吧！我心中最好的”机器学习“的图书，有这么几本，另外，期待楼主赶紧凑到100个经管资源，分享给大伙儿吧
+
+**《Mining of Massive Datasets》（《大数据》）**  
+作 者Anand Rajaraman\[3\]、Jeffrey David Ullman，Anand是Stanford的PhD。这本书介绍了很多算法，也介绍了这些算法在数据规模比较大的时候的变形。但是限于篇幅，每种算法都没有展开讲的感觉，如果想深入了解需要查其他的资料，不过这样的话对算法进行了解也足够了。还有一点不足的地方就是本书原文和翻译都有许多错误，勘误表比 较长，读者要用心了。  
+**《DataMining: Practical Machine Learning Tools and Techniques》（《数据挖掘：实用机器学习技术》）**  
+作者IanH. Witten 、Eibe Frank是weka的作者、新西兰怀卡托大学教授。他们的《ManagingGigabytes》\[4\]也是信息检索方面的经典书籍。这本书最大的特点是对weka的使用进行了介绍，但是其理论部分太单薄，作为入门书籍还可，但是，经典的入门书籍如《集体智慧编程》、《智能web算法》已经很经典，学习 的话不宜读太多的入门书籍，建议只看一些上述两本书没讲到的算法。  
+**《机器学习及其应用》**  
+周志华、杨强主编。来源于“机器学习及其应用研讨会”的文集。该研讨会由复旦大学智能信息处理实验室发起，目前已举办了十届，国内的大牛如李航、项亮、王海峰、刘铁岩、余凯等都曾在该会议上做过讲座。这本书讲了很多机器学习前沿的具体的应用，需要有基础的才能看 懂。如果想了解机器学习研究趋势的可以浏览一下这本书。关注领域内的学术会议是发现研究趋势的方法嘛。  
+**《ManagingGigabytes》（深入搜索引擎）**  
+信息检索不错的书。  
+**《ModernInformation Retrieval》**  
+Ricardo Baeza-Yates et al. 1999。貌似第一本完整讲述IR的书。可惜IR这些年进展迅猛，这本书略有些过时了。翻翻做参考还是不错的。另外，Ricardo同学现在是Yahoo Research for Europe and Latin Ameria的头头。
+
+  
+
+-   **（7）坛友“数术“推荐图书5本**  
+    
+
+  
+
+造福坛友的好活动，我推荐的是机器学习方面的几本书，供大家参考。  
+**1.《数学之美》**  
+作者吴军大家都很熟悉。以极为通俗的语言讲述了数学在机器学习和自然语言处理等领域的应用。  
+**2.《Programming Collective Intelligence》（《集体智慧编程》）**  
+这本书最大的优势就是里面没有理论推导和复杂的数学公式，是很不错的入门书。目前中文版已经脱销，对于有志于这个领域的人来说，英文的pdf是个不错的选择，因为后面有很多经典书的翻译都较差，只能看英文版，不如从这个入手。还有，这本书适合于快速看完，因为据评论，看完一些经典的带有数学推导的书后会发现这本书什么都没讲，只是举了很多例子而已。  
+**3.《Algorithms of the Intelligent Web》（《智能web算法》）**  
+作者HaralambosMarmanis、Dmitry Babenko。这本书中的公式比《集体智慧编程》要略多一点，里面的例子多是互联网上的应用，看名字就知道。不足的地方在于里面的配套代码是 BeanShell而不是python或其他。总起来说，这本书还是适合初学者，与上一本一样需要快速读完，如果读完上一本的话，这一本可以不必细看代码，了解算法主要思想就行了。  
+**4.《统计学习方法》**  
+作者李航，是国内机器学习领域的几个大家之一，曾在MSRA任高级研究员，现在华为诺亚方舟实验室。书中写了十个算法，每个算法的介绍都很干脆，直接上公 式，是彻头彻尾的“干货书”。每章末尾的参考文献也方便了想深入理解算法的童鞋直接查到经典论文；本书可以与上面两本书互为辅助阅读。  
+**5.《Machine Learning》（《机器学习》）**作 者Tom Mitchell是CMU的大师，有机器学习和半监督学习的网络课程视频。这本书是领域内翻译的较好的书籍，讲述的算法也比《统计学习方法》的范围要大很多。据评论这本书主要在于启发，讲述公式为什么成立而不是推导；不足的地方在于出版年限较早，时效性不如PRML。但有些基础的经典还是不会过时的，所以这本书现在几乎是机器学习的必读书目。
+
+  
+
+-   **（8）坛友“桐叶“推荐两个免费的机器学习视频课程**  
+    
+
+  
+
+斯坦福大学公开课：机器学习课程  
+[http://open.163.com/special/opencourse/machinelearning.html](http://link.zhihu.com/?target=http%3A//bbs.pinggu.org/linkto.php%3Furl%3Dhttp%253A%252F%252Fopen.163.com%252Fspecial%252Fopencourse%252Fmachinelearning.html)  
+  
+加州理工学院公开课：机器学习与数据挖掘  
+[http://open.163.com/special/opencourse/learningfromdata.html](http://link.zhihu.com/?target=http%3A//bbs.pinggu.org/linkto.php%3Furl%3Dhttp%253A%252F%252Fopen.163.com%252Fspecial%252Fopencourse%252Flearningfromdata.html)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

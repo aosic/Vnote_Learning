@@ -1,0 +1,138 @@
+{
+    "created_time": "2019-09-29T03:58:28Z",
+    "files": [
+        {
+            "attachment_folder": "",
+            "attachments": [
+            ],
+            "created_time": "2019-09-29T03:58:34Z",
+            "modified_time": "2019-11-04T10:41:28Z",
+            "name": "manim教程笔记.md",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "attachments": [
+            ],
+            "created_time": "2019-10-31T06:25:29Z",
+            "modified_time": "2019-11-05T12:16:20Z",
+            "name": "ReadMe-Office.md",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "1572859235_6727",
+            "attachments": [
+            ],
+            "created_time": "2019-11-01T03:50:29Z",
+            "modified_time": "2019-11-04T09:30:10Z",
+            "name": "3D.md",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "attachments": [
+            ],
+            "created_time": "2019-11-01T04:45:39Z",
+            "modified_time": "2019-11-01T04:58:42Z",
+            "name": "（汉化官方+理解）大佬阶段性总结1.md",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "attachments": [
+            ],
+            "created_time": "2019-11-01T04:45:47Z",
+            "modified_time": "2019-11-01T04:58:59Z",
+            "name": "（汉化官方+理解）大佬阶段性总结2.md",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "attachments": [
+            ],
+            "created_time": "2019-11-03T09:41:37Z",
+            "modified_time": "2019-11-04T09:32:15Z",
+            "name": "CodesNotes.md",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "attachments": [
+            ],
+            "created_time": "2019-11-03T10:04:42Z",
+            "modified_time": "2019-11-09T02:17:47Z",
+            "name": "Bugs.md",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "attachments": [
+            ],
+            "created_time": "2019-11-03T12:19:04Z",
+            "modified_time": "2019-11-11T02:10:28Z",
+            "name": "manim字体综合和中文.md",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "attachments": [
+            ],
+            "created_time": "2019-11-04T09:32:29Z",
+            "modified_time": "2019-11-04T09:35:11Z",
+            "name": "manim-arrange_submobjects的应用及LaggedStart的应用.md",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "attachments": [
+            ],
+            "created_time": "2019-11-04T10:42:32Z",
+            "modified_time": "2019-11-04T10:44:20Z",
+            "name": "元认知分类教程本地调试备忘笔记.md",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "attachments": [
+            ],
+            "created_time": "2019-11-05T01:09:29Z",
+            "modified_time": "2019-11-05T01:29:40Z",
+            "name": "项目源码是新手最好学习例子---源码是高手最好的学习资源.md",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "attachments": [
+            ],
+            "created_time": "2019-11-06T02:06:40Z",
+            "modified_time": "2019-11-06T02:14:12Z",
+            "name": "python基础.md",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "attachments": [
+            ],
+            "created_time": "2019-11-09T02:41:12Z",
+            "modified_time": "2019-11-09T16:28:49Z",
+            "name": "TextMobject-TexObject.md",
+            "tags": [
+            ]
+        }
+    ],
+    "sub_directories": [
+    ],
+    "version": "1"
+}

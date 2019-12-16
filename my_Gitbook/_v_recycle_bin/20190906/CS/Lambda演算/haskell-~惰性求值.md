@@ -1,0 +1,27 @@
+懒惰模式，并具有~pat的形式。懒惰模式是无可辩驳的：匹配值v对~pat总是成功，无论pat。在操作上，如果pat中的标识符稍后在右侧被“使用”，则它将被绑定到如果v成功匹配pat将导致的值的那部分，否则⊥。
+
+
+
+
+
+
+
+
+# haskell-~惰性求值
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+https://stackoverflow.com/questions/2263541/what-does-mean-in-haskell
+

@@ -1,0 +1,135 @@
+vnote_backup_file_826537664 E:/my_Gitbook/CS/形式验证.md
+
+
+https://cn.bing.com/search?q=形式验证书本&qs=n&form=QBRE&sp=-1&pq=ti%27haun&sc=0-7&sk=&cvid=9ECE5C5D02AD421285CEF33EB590C9EE
+
+https://www.zhihu.com/search?type=content&q=形式验证
+
+
+
+
+
+
+
+
+相关话题：  
+
+-   模型检测
+-   符号执行
+-   抽象解释
+-   中间表示
+-   类型系统
+-   程序逻辑
+-   定理证明
+-   ...
+https://www.zhihu.com/question/29686410/answer/66676380
+
+
+首先直接去看Lamport老爷子的教程，[Learning TLA+](https://link.zhihu.com/?target=https%3A//lamport.azurewebsites.net/tla/learning.html)，里面包括几乎所有你需要的资料，如果你想快速上手可以直接看[Video Course](https://link.zhihu.com/?target=https%3A//lamport.azurewebsites.net/video/videos.html)，不过我个人建议先看一下老爷子写的[《The TLA+ Book》](https://link.zhihu.com/?target=https%3A//lamport.azurewebsites.net/tla/learning.html)，这本书不光是TLA+教程，更重要的是能教会你如何抽象地描述系统。
+
+还有一本《Practical TLA+》也不错，这本书侧重讲PlusCal语言，因为对习惯programming思维的人来说，原生TLA+有时候不太好理解，PlusCal则更偏向于传统的编程语言，后者可以通过IDE很方便的转换成TLA+。需要注意这本书不是免费的需要十几刀，相信我它值这个钱。
+
+切记，一定要一边学一边实践，否则很可能连一些基本的symbol都不会写。我当时就是一口气看完老爷子课程，感觉里面那些demo也不过如此（印象最深的是《虎胆龙威》倒水壶），结果等到自己上手的时候，简直脑回路便秘。
+
+另外还可以看看很多别人写的的TLA+，包括[Paxos](https://link.zhihu.com/?target=https%3A//github.com/tlaplus/Examples/tree/master/specifications/Paxos)和[Raft](https://link.zhihu.com/?target=https%3A//github.com/tlaplus/Examples/tree/master/specifications/raft)等等，如果你是搞分布式的，强烈建议看一看[”Byzantizing Paxos by Refinement“](https://link.zhihu.com/?target=https%3A//lamport.azurewebsites.net/tla/byzpaxos.html)这篇论文，作者当然还是Lamport，看完这个你一定会对Paxos以及PBFT有更深入的理解。
+
+因为我的专业不是软件工程，对于更广义上的形式化验证没有太深刻的认识，单就学习TLA+而言，我建议你起码具有一定数学基础（尤其是离散数学），对状态机（state machine）有一些了解，编程水平倒不是很重要，写顺了TLA+后你会发现写这玩意儿比写代码有意思多了。
+
+  
+
+最后打个广告，最近我正在写Nebulas下个版本的共识算法，[https://github.com/longinus41/pod_spec](https://link.zhihu.com/?target=https%3A//github.com/longinus41/pod_spec)，感兴趣的可以关注交流一下。
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+https://www.zhihu.com/question/266595098/answer/312749019
+
+【用 proof assistant 做更复杂的 verification】的路线说白了就是用 Coq 写比 SF 习题更难的验证代码，可以学习使用比 Coq 更工业友好的、基于 refinement type 的、专门支持 effect 的 verification 系统： F*, Dafny, Koka（贵软牛逼！），学习他们怎么管理 effect 的。或者也可以阅读验证复杂问题的 Coq 代码，比如有关分布式系统的什么的
+
+【理解 proof assistant 背后的工作原理，以及制备新的 proof assistant】的路线说白了就是学习怎么写 elaborator 或者 bidirectional type-checker，这个教程很多（Ulf Norell 的 thesis，LambdaPi，MiniTT 的论文，以及 TOG，elaboration-zoo 的代码都可以拿来入门），坑很深，领域人很少，答主目前就在这个坑里
+
+【改进 proof assistant 中的某些特殊组件】比如 error message（proof assistant 很难把这个东西做好），proof-search（program synthesis），应该是有趣的方向，答主了解的不多
+
+【设计更好的类型论/证明论，并制备相关 proof assistant】的路线，目前答主知道的有基于时序逻辑的 TLA+（可以写带 global state 的程序）和基于各种用代数拓扑实现（Cubical model，Simplicial Set）的 HoTT 的 proof assistant（Red 系列，Cubical Agda）。后者非常不成熟（比如 Cubical primitive 的编译），因此是很好的科研机会，答主准备逐步转移到这个坑中
+
+
+
+
+
+
+
+
+形式证明与普通数学证明的区别是什么? (前者机器可逐步验证; 后者目前只有人能读, 而且读的普通人头痛; 等自然语言处理达到一定水平, 机器也可以读LaTeX, 吴恩达有学生做过.)   
+为什么说费马定理是没有形式证明的？(现有的各种数学证明都可以翻译成形式证明吧, 就是有些人工证明太长太繁琐太难懂了, 还没有人去做吧. 法国一大批学者开发Coq在做, 挺有前途的.)
+
+最近看到一篇把实变函数, 概率论, 信息论, 测度论形式化的论文.  
+Ref \[1\]: On the Formalization of the Lebesgue Integration Theory in HOL. [http://hvg.ece.concordia.ca/Publications/TECH\_REP/MLP\_TR10/MLP_TR10.pdf](https://link.zhihu.com/?target=http%3A//hvg.ece.concordia.ca/Publications/TECH_REP/MLP_TR10/MLP_TR10.pdf)  
+形式证明在数值分析方面的应用.   
+Ref \[2\]: Formal Proof of a Wave Equation Resolution Scheme: the Method Error.  
+[http://arxiv.org/pdf/1005.0824.pdf](https://link.zhihu.com/?target=http%3A//arxiv.org/pdf/1005.0824.pdf)  
+形式证明在工业界: 检查涉及浮点运算的软件.  
+Ref \[3\]: Wave Equation Numerical Resolution: a Comprehensive Mechanized Proof of a C Program  
+[http://arxiv.org/pdf/1112.1795.pdf](https://link.zhihu.com/?target=http%3A//arxiv.org/pdf/1112.1795.pdf)  
+形式证明在微分方程ODE的应用  
+Ref \[4\]: The Picard Algorithm for Ordinary Di erential Equations in Coq  
+[http://www.cs.ru.nl/~spitters/Picard.pdf](https://link.zhihu.com/?target=http%3A//www.cs.ru.nl/~spitters/Picard.pdf)
+
+第一篇一个加拿大EE方面的博士形式化了测度论(他博士论文), 你还能让其他学科的人形式化解析数论吗? 说明这方面工作刚开始, 说明在数学界还没有充分重视这方面工作. 话说, 这倒是灌水的好机会: 把所有重要数学论文都形式验证下. 如果稍稍机智点, 或许可以让机器证明一些公开问题.
+
+目前形式证明/定理自动证明/机器证明的困难:  
+(1) 计算复杂度. 各种定义, 引理的潜在组合太多, 如何启发式搜索, 或者借用量子计算机?  
+Ref \[5\]: Machine learning and automated theorem proving. James P. Bridge. 2010  
+[https://www.cl.cam.ac.uk/techreports/UCAM-CL-TR-792.pdf](https://link.zhihu.com/?target=https%3A//www.cl.cam.ac.uk/techreports/UCAM-CL-TR-792.pdf)  
+\[6\]: Machine Learning for Automated Theorem Proving. Bernhard Kragl   
+[http://pub.ist.ac.at/~chl/ML2015/kragl-sma2015.pdf](https://link.zhihu.com/?target=http%3A//pub.ist.ac.at/~chl/ML2015/kragl-sma2015.pdf)  
+(2) 知识图谱. 现有的数学技巧, 物理直觉, 数学成果如何高效的转化为一个数据库?  
+Ref \[7\]: Matuszewski, R., Rudnicki, P.: Mizar: The first 30 years. Mechanized Mathematics and Its Applications 4, 3–24 (2005)  
+(3) 其余. 计算两个定理之间的距离? 简单解释上同调? 构造反例? 根据哥德尔定理, 添加少许公理假设?   
+Ref \[8\]: [https://www21.in.tum.de/~blanchet/axiom_sel.pdf](https://link.zhihu.com/?target=https%3A//www21.in.tum.de/~blanchet/axiom_sel.pdf)  
+提出新的猜想, 鉴别组合得到的定理重要性, 提出新的数学工具, 和物理化学等学科的联系. 完全实现这些, 等价于实现了强人工智能, 大约需要十年以上?
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

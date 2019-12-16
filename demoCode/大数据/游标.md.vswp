@@ -1,0 +1,522 @@
+vnote_backup_file_826537664 C:/Users/admin/Documents/vnote_notebooks/demoCode/大数据/游标.md
+# 游标
+
+定义
+
+[https://blog.csdn.net/qq_37314497/article/details/89334563](https://blog.csdn.net/qq_37314497/article/details/89334563)
+
+
+
+
+
+
+
+
+
+
+例子
+
+
+[https://blog.csdn.net/qq_41113081/article/details/90484991](https://blog.csdn.net/qq_41113081/article/details/90484991)
+
+
+
+
+
+
+
+
+教程：游标触发器存储过程
+
+https://www.bilibili.com/video/av38644937?p=1
+
+
+
+```sql
+/*
+序列：Oracle用来模拟ID自增长的
+*/
+CREATE sequence seq_test4;
+
+CREATE TABLE TEST2(
+	tid NUMBER PRIMARY KEY;
+	tneme VARCHAR(10)
+);
+
+INSERT INTO test2 value(seq_test4.nextval,'张三');
+
+SELECT * FROM test2;
+
+/*
+PL/SQL过程语言编程，复杂业务编程
+输出星号
+abs(y)+abs(x)<=m
+dbms_output_line每次输出一个换行
+
+
+SALARY字段输出要怎么声明变量类型？
+v_sal employee.salary%TYPE --引用型变量
+row  employee%rowtype --记录型变量
+
+SELECT sal into v_sal FROM employee WHERE empno=7788;
+
+*/
+DECLARE
+	m number :=3;
+BEGIN
+	FOR y IN -m..m LOOP
+		FOR X IN -m..m LOOP
+			IF abs(y)+abs(x)<=m THEN
+				dbms_output.put('*');
+			ELSE
+				dbms_output.put(' ');  
+			END IF;
+		END LOOP;
+		dbms_output.new_line();
+	END LOOP;
+END;
+
+```
+
+
+普通游标
+
+
+```sql
+/*
+光标，查询结果集，相当于JDBC中Results
+
+CURSOR 游标 IS 查询结果集
+
+1 声明游标 Declare处写CURSOR
+2 打开游标  open 游标名(参数名 参数类型)
+3 从游标中取数据 FETCH 游标名 INTO 变量
+								游标名%found:找到游标
+								游标名%notfound:没有找到
+4 关闭游标
+*/
+
+
+/*
+输出所有员工名字工资
+一行记录 %rowTYPE
+*/
+DECLARE 
+	CURSOR vrows IS SELECT * FROM emp;
+--声明变量记录一行数据
+	v_row emp%rowtype;
+BEGIN
+	open vrows;
+	loop
+		fetch vrows into vrow;
+		exit when vrows%notfound;
+		dbms_output.put_line('姓名'||vrow.ename||'工资：'||vrow.salary);
+	end loop;
+	close vrows;
+END;
+
+
+/*
+输出制定部门下的员工姓名工资
+游标
+*/
+
+DECLARE 
+	CURSOR vrows（dno NUMBER） IS SELECT * FROM emp WHERE deptno=dno;
+--声明变量记录一行数据
+	v_row emp%rowtype;
+BEGIN
+	open vrows(10);--指定10号部门
+	loop
+		fetch vrows into vrow;
+		exit when vrows%notfound;
+		dbms_output.put_line('姓名'||vrow.ename||'工资：'||vrow.salary);
+	end loop;
+	close vrows;
+END;
+
+
+```
+
+系统引用游标
+
+
+1 声明游标 Declare处写 sys_refcursor
+2 打开游标  open 游标名(参数名 参数类型) for 结果集
+3 从游标中取数据 FETCH 游标名 INTO 变量
+								游标名%found:找到游标
+								游标名%notfound:没有找到
+4 关闭游标
+
+```sql
+declare
+	 --声明系统引用游标
+	vrows sys_refcursor;
+	--声明变量
+	vrow emp%rowtype;	
+
+begin
+	open vrows for select * from emp;
+	loop
+		fetch vrows into vrow;
+		exit when vrows%notfound;
+		dbms_output.putline('姓名'||vrow.ename||'工资：'||vrow.salary);
+	end loop;
+	close vrows;
+end;
+
+```
+
+for循环游标
+扩展
+不用声明变量，不需要额外打开游标判断游标是否为空不需要关闭游标
+
+```sql
+
+DECLARE 
+	CURSOR vrows IS SELECT * FROM emp;
+BEGIN
+	open vrows;--指定10号部门
+	for vrow in vrows loop
+		dbms_output.put_line('姓名'||vrow.ename||'工资：'||vrow.salary)||'工作'||vrow.job;
+	end loop;
+END;
+
+--see
+select * from emp;
+
+```
+
+
+更新工资小案例
+
+
+
+```sql
+declare 
+	cursor vrows is select *from emp;
+	vrow emp%roetype;
+begin
+	open vrows;
+	loop
+		fetch vrows into vrow;
+		exit when vrows%notfound;
+		if vrow.job = '经理' then
+			update emp set sal =sal+800 where empno=vrow.empno;--根据职位更新会更新多次，所以要根据no编号来更新
+		elseif vrow.job = '总裁' then
+			update emp set sal =sal+1000 where empno=vrow.empno;
+  	else
+  		update emp set sal =sal+400 where empno=vrow.empno;
+		end if;
+ 	end loop;
+	close vrows;
+	commit;--提交
+end;
+```
+
+系统异常演示
+
+```sql
+
+
+```
+
+抛出异常演示
+
+```sql
+
+
+```
+
+抛出自定义异常
+
+```sql
+
+
+```
+存储过程:实际上是封装比较好的PL/SQL代码，工具类，已经编译好的代码块，用户调用会快很多
+输入IN，输出OUT,IN OUT输入输出
+
+create or replace procedure 存储过程名称（参数名 IN|OUT 参数类型，......） 
+is|as --这个存储过程“是”用来干嘛的？“作为AS”什么？
+--声明部分
+begin 
+	--业务逻辑
+end;
+
+```sql
+
+
+
+/*
+涨工资
+*/
+create or replace procedure proc_updatesal(vempno in number,vnum in number)
+is
+--声明变量
+	vsal number;
+begin
+--当前工资查询
+	select sal from empno=vempno;
+		dbms.output.put_line('涨薪前的工资:'||vsal);
+	update emp set sal = sal+vnum where empno =vempno;
+		dbms.output.put_line('涨薪后的工资:'||（vsal+vnum）);
+	commit;
+end;
+
+```
+
+
+存储函数:实际上是封装比较好的PL/SQL片段，编译好的，区别是有返回值。
+
+通常情况下，存储函数的存在意义是是给存储过程调用的。本质上没区别。
+
+
+create （or replace） function 存储过程名称（参数名 IN|OUT 参数类型，......） return 参数类型
+is|as --这个存储过程“是”用来干嘛的？“作为AS”什么？
+--声明部分
+begin 
+	--业务逻辑
+end;
+
+```sql
+
+
+```
+JDBC调用存储过程
+
+
+```sql
+
+
+```
+JDBC调用存储函数
+
+
+```sql
+
+
+```
+
+
+
+触发器入门：当insert | update | delete触发一系列
+
+create for replace trigger
+before | after
+insert | update | delete
+on 表名
+--触发业务处理逻辑，插入数据校验，跟新数据库后自动写*.log日志
+（for each row）
+declare
+
+begin
+
+
+end;
+
+```sql
+/*
+欢迎加入
+*/
+create or replace trigger tri_test1
+after 
+insert 
+on emp
+declare
+
+begin
+	dbms_output.put_line('欢迎加入黑马程序员');
+end;
+
+insert into emp(empno,ename) values('9527','华安')
+
+--数据校验，周六老板不在不能办理新员工入职
+
+create or replace trigger tri_test2
+before
+insert 
+on emp
+declare
+ 	vday varchar2(10);
+begin
+	select trim(to_char(sysdate,'day')) into vday from dual;--trim空格‘saturday ’
+
+	if vday = 'saturday' then
+	dbms_output.put_line('周六老板不在，不能入职');
+	--rollback;--卷回不能，--commit--提交不能
+	--抛出系统异常
+	raise_application_error(-20001,'周六老板不在，不能入职');
+	end if;
+end;
+
+insert into emp(empno,ename) values('9527','华安')
+
+```
+语句级触发器：不管影响多少行，只会执行一次
+行级触发器：影响多少行就出发多少次
+				：old更新前的数据
+				：new代表新的数据
+
+
+
+
+
+行触发器更新工资
+
+
+```sql
+--更新所有工资，输出一句话
+create or replace trigger tri_test3
+after 
+update
+on emp
+for each row--每行，行级触发器，影响多少行执行多少次
+declare
+
+begin
+	dbms_output.put_line('更新了一行数据');
+	
+end;
+
+
+
+/*
+涨工资只有一定要大于涨工资前的工资，200-->100
+*/
+create or replace trigger tri_updatesal
+before
+update
+on emp
+for each row
+declare
+ 	
+begin
+	if :old.sal>:new.sal then
+	raise_application_error(-20002,'旧的工资不能大于新的工资');
+	--rollback;--卷回不能，--commit--提交不能
+	--抛出系统异常
+	end if;
+end;
+
+update emp set emp.sal=emp.sal+10;
+select * frim emp;
+
+update emp set emp.sal=emp.sal-100;--抛出异常
+select * frim emp;
+
+
+
+```
+
+
+
+模拟ID自动增长触发器
+
+
+```sql
+/*
+模拟sql中的ID自增数性auto_increment
+insert into person(null,'张三');
+
+pid insert pid=1
+序列：create sequence seq_person_pid;
+*/
+create table person(
+	pid number primary key;
+	pname varchar2(20);
+
+);
+insert into person values(null,'张三');
+
+--想让它自己做出来逻辑主键，自增auto——increment
+--触发器
+create or replace trigger tri_add_person_pid
+before
+insert
+on person
+for each row
+decalre
+
+begin
+	dbms_output.put_line(:new.pname'');
+	--给新插入的pid赋值
+	select seq_person_pid.nextval into :new.pid from dual;
+end;
+insert into person values(null,'张三');
+
+--see
+
+select * from person;
+
+
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

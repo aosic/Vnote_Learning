@@ -1,0 +1,148 @@
+{
+    "created_time": "2019-09-29T08:58:32Z",
+    "files": [
+        {
+            "attachment_folder": "",
+            "attachments": [
+            ],
+            "created_time": "2019-10-24T09:09:20Z",
+            "modified_time": "2019-10-26T00:27:23Z",
+            "name": "python科学绘图.md",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "attachments": [
+            ],
+            "created_time": "2019-10-24T09:57:47Z",
+            "modified_time": "2019-10-24T10:02:01Z",
+            "name": "python路径.md",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "attachments": [
+            ],
+            "created_time": "2019-10-25T23:54:18Z",
+            "modified_time": "2019-10-26T00:09:11Z",
+            "name": "gbk编码错误.md",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "attachments": [
+            ],
+            "created_time": "2019-10-26T03:35:47Z",
+            "modified_time": "2019-10-26T04:19:31Z",
+            "name": "魔法命令新建.md",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "attachments": [
+            ],
+            "created_time": "2019-10-26T03:44:31Z",
+            "modified_time": "2019-10-26T03:44:33Z",
+            "name": "py科学手册.md",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "attachments": [
+            ],
+            "created_time": "2019-10-26T03:50:06Z",
+            "modified_time": "2019-10-27T02:59:13Z",
+            "name": "文档.md",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "attachments": [
+            ],
+            "created_time": "2019-10-26T03:50:36Z",
+            "modified_time": "2019-10-26T04:30:48Z",
+            "name": "jupyter仓库.md",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "attachments": [
+            ],
+            "created_time": "2019-10-26T08:32:53Z",
+            "modified_time": "2019-10-26T08:37:18Z",
+            "name": "python-scipy生成模型密度.md",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "attachments": [
+            ],
+            "created_time": "2019-10-26T08:35:14Z",
+            "modified_time": "2019-10-28T12:10:43Z",
+            "name": "numpy+scipy.md",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "attachments": [
+            ],
+            "created_time": "2019-10-27T08:16:11Z",
+            "modified_time": "2019-12-03T03:10:35Z",
+            "name": "matplotlib-seaborn中文画图.md",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "attachments": [
+            ],
+            "created_time": "2019-10-27T09:12:41Z",
+            "modified_time": "2019-10-27T10:50:51Z",
+            "name": "cdf--Fitting a probability distribution to data with the maximum likelihood method.md",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "attachments": [
+            ],
+            "created_time": "2019-10-27T09:16:42Z",
+            "modified_time": "2019-10-27T09:16:54Z",
+            "name": "拟合Gamma分布.md",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "attachments": [
+            ],
+            "created_time": "2019-10-27T10:29:02Z",
+            "modified_time": "2019-10-27T10:29:04Z",
+            "name": "seaborn可视化.md",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "attachments": [
+            ],
+            "created_time": "2019-10-27T11:08:20Z",
+            "modified_time": "2019-12-03T01:38:56Z",
+            "name": "pandas_numpy.md",
+            "tags": [
+            ]
+        }
+    ],
+    "sub_directories": [
+    ],
+    "version": "1"
+}
